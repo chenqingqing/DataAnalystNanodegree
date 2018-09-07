@@ -1,0 +1,890 @@
+,PassengerId,Survived,Pclass,Name,Sex,Age,SibSp,Parch,Ticket,Fare,Cabin,Embarked,age
+0,1,Not Survived,Lower,"Braund, Mr. Owen Harris",male,22.0,1,0,A/5 21171,7.25,,southampton,21-30
+1,2,Survived,Upper,"Cumings, Mrs. John Bradley (Florence Briggs Thayer)",female,38.0,1,0,PC 17599,71.2833,C85,Cherbourg,31-40
+2,3,Survived,Lower,"Heikkinen, Miss. Laina",female,26.0,0,0,STON/O2. 3101282,7.925,,southampton,21-30
+3,4,Survived,Upper,"Futrelle, Mrs. Jacques Heath (Lily May Peel)",female,35.0,1,0,113803,53.1,C123,southampton,31-40
+4,5,Not Survived,Lower,"Allen, Mr. William Henry",male,35.0,0,0,373450,8.05,,southampton,31-40
+5,6,Not Survived,Lower,"Moran, Mr. James",male,,0,0,330877,8.4583,,Queenstown,None
+6,7,Not Survived,Upper,"McCarthy, Mr. Timothy J",male,54.0,0,0,17463,51.8625,E46,southampton,51-60
+7,8,Not Survived,Lower,"Palsson, Master. Gosta Leonard",male,2.0,3,1,349909,21.075,,southampton,0-10
+8,9,Survived,Lower,"Johnson, Mrs. Oscar W (Elisabeth Vilhelmina Berg)",female,27.0,0,2,347742,11.1333,,southampton,21-30
+9,10,Survived,Middle,"Nasser, Mrs. Nicholas (Adele Achem)",female,14.0,1,0,237736,30.0708,,Cherbourg,11-20
+10,11,Survived,Lower,"Sandstrom, Miss. Marguerite Rut",female,4.0,1,1,PP 9549,16.7,G6,southampton,0-10
+11,12,Survived,Upper,"Bonnell, Miss. Elizabeth",female,58.0,0,0,113783,26.55,C103,southampton,51-60
+12,13,Not Survived,Lower,"Saundercock, Mr. William Henry",male,20.0,0,0,A/5. 2151,8.05,,southampton,11-20
+13,14,Not Survived,Lower,"Andersson, Mr. Anders Johan",male,39.0,1,5,347082,31.275,,southampton,31-40
+14,15,Not Survived,Lower,"Vestrom, Miss. Hulda Amanda Adolfina",female,14.0,0,0,350406,7.8542,,southampton,11-20
+15,16,Survived,Middle,"Hewlett, Mrs. (Mary D Kingcome) ",female,55.0,0,0,248706,16.0,,southampton,51-60
+16,17,Not Survived,Lower,"Rice, Master. Eugene",male,2.0,4,1,382652,29.125,,Queenstown,0-10
+17,18,Survived,Middle,"Williams, Mr. Charles Eugene",male,,0,0,244373,13.0,,southampton,None
+18,19,Not Survived,Lower,"Vander Planke, Mrs. Julius (Emelia Maria Vandemoortele)",female,31.0,1,0,345763,18.0,,southampton,31-40
+19,20,Survived,Lower,"Masselmani, Mrs. Fatima",female,,0,0,2649,7.225,,Cherbourg,None
+20,21,Not Survived,Middle,"Fynney, Mr. Joseph J",male,35.0,0,0,239865,26.0,,southampton,31-40
+21,22,Survived,Middle,"Beesley, Mr. Lawrence",male,34.0,0,0,248698,13.0,D56,southampton,31-40
+22,23,Survived,Lower,"McGowan, Miss. Anna ""Annie""",female,15.0,0,0,330923,8.0292,,Queenstown,11-20
+23,24,Survived,Upper,"Sloper, Mr. William Thompson",male,28.0,0,0,113788,35.5,A6,southampton,21-30
+24,25,Not Survived,Lower,"Palsson, Miss. Torborg Danira",female,8.0,3,1,349909,21.075,,southampton,0-10
+25,26,Survived,Lower,"Asplund, Mrs. Carl Oscar (Selma Augusta Emilia Johansson)",female,38.0,1,5,347077,31.3875,,southampton,31-40
+26,27,Not Survived,Lower,"Emir, Mr. Farred Chehab",male,,0,0,2631,7.225,,Cherbourg,None
+27,28,Not Survived,Upper,"Fortune, Mr. Charles Alexander",male,19.0,3,2,19950,263.0,C23 C25 C27,southampton,11-20
+28,29,Survived,Lower,"O'Dwyer, Miss. Ellen ""Nellie""",female,,0,0,330959,7.8792,,Queenstown,None
+29,30,Not Survived,Lower,"Todoroff, Mr. Lalio",male,,0,0,349216,7.8958,,southampton,None
+30,31,Not Survived,Upper,"Uruchurtu, Don. Manuel E",male,40.0,0,0,PC 17601,27.7208,,Cherbourg,31-40
+31,32,Survived,Upper,"Spencer, Mrs. William Augustus (Marie Eugenie)",female,,1,0,PC 17569,146.5208,B78,Cherbourg,None
+32,33,Survived,Lower,"Glynn, Miss. Mary Agatha",female,,0,0,335677,7.75,,Queenstown,None
+33,34,Not Survived,Middle,"Wheadon, Mr. Edward H",male,66.0,0,0,C.A. 24579,10.5,,southampton,61-70
+34,35,Not Survived,Upper,"Meyer, Mr. Edgar Joseph",male,28.0,1,0,PC 17604,82.1708,,Cherbourg,21-30
+35,36,Not Survived,Upper,"Holverson, Mr. Alexander Oskar",male,42.0,1,0,113789,52.0,,southampton,41-50
+36,37,Survived,Lower,"Mamee, Mr. Hanna",male,,0,0,2677,7.2292,,Cherbourg,None
+37,38,Not Survived,Lower,"Cann, Mr. Ernest Charles",male,21.0,0,0,A./5. 2152,8.05,,southampton,21-30
+38,39,Not Survived,Lower,"Vander Planke, Miss. Augusta Maria",female,18.0,2,0,345764,18.0,,southampton,11-20
+39,40,Survived,Lower,"Nicola-Yarred, Miss. Jamila",female,14.0,1,0,2651,11.2417,,Cherbourg,11-20
+40,41,Not Survived,Lower,"Ahlin, Mrs. Johan (Johanna Persdotter Larsson)",female,40.0,1,0,7546,9.475,,southampton,31-40
+41,42,Not Survived,Middle,"Turpin, Mrs. William John Robert (Dorothy Ann Wonnacott)",female,27.0,1,0,11668,21.0,,southampton,21-30
+42,43,Not Survived,Lower,"Kraeff, Mr. Theodor",male,,0,0,349253,7.8958,,Cherbourg,None
+43,44,Survived,Middle,"Laroche, Miss. Simonne Marie Anne Andree",female,3.0,1,2,SC/Paris 2123,41.5792,,Cherbourg,0-10
+44,45,Survived,Lower,"Devaney, Miss. Margaret Delia",female,19.0,0,0,330958,7.8792,,Queenstown,11-20
+45,46,Not Survived,Lower,"Rogers, Mr. William John",male,,0,0,S.C./A.4. 23567,8.05,,southampton,None
+46,47,Not Survived,Lower,"Lennon, Mr. Denis",male,,1,0,370371,15.5,,Queenstown,None
+47,48,Survived,Lower,"O'Driscoll, Miss. Bridget",female,,0,0,14311,7.75,,Queenstown,None
+48,49,Not Survived,Lower,"Samaan, Mr. Youssef",male,,2,0,2662,21.6792,,Cherbourg,None
+49,50,Not Survived,Lower,"Arnold-Franchi, Mrs. Josef (Josefine Franchi)",female,18.0,1,0,349237,17.8,,southampton,11-20
+50,51,Not Survived,Lower,"Panula, Master. Juha Niilo",male,7.0,4,1,3101295,39.6875,,southampton,0-10
+51,52,Not Survived,Lower,"Nosworthy, Mr. Richard Cater",male,21.0,0,0,A/4. 39886,7.8,,southampton,21-30
+52,53,Survived,Upper,"Harper, Mrs. Henry Sleeper (Myna Haxtun)",female,49.0,1,0,PC 17572,76.7292,D33,Cherbourg,41-50
+53,54,Survived,Middle,"Faunthorpe, Mrs. Lizzie (Elizabeth Anne Wilkinson)",female,29.0,1,0,2926,26.0,,southampton,21-30
+54,55,Not Survived,Upper,"Ostby, Mr. Engelhart Cornelius",male,65.0,0,1,113509,61.9792,B30,Cherbourg,61-70
+55,56,Survived,Upper,"Woolner, Mr. Hugh",male,,0,0,19947,35.5,C52,southampton,None
+56,57,Survived,Middle,"Rugg, Miss. Emily",female,21.0,0,0,C.A. 31026,10.5,,southampton,21-30
+57,58,Not Survived,Lower,"Novel, Mr. Mansouer",male,28.5,0,0,2697,7.2292,,Cherbourg,21-30
+58,59,Survived,Middle,"West, Miss. Constance Mirium",female,5.0,1,2,C.A. 34651,27.75,,southampton,0-10
+59,60,Not Survived,Lower,"Goodwin, Master. William Frederick",male,11.0,5,2,CA 2144,46.9,,southampton,11-20
+60,61,Not Survived,Lower,"Sirayanian, Mr. Orsen",male,22.0,0,0,2669,7.2292,,Cherbourg,21-30
+62,63,Not Survived,Upper,"Harris, Mr. Henry Birkhardt",male,45.0,1,0,36973,83.475,C83,southampton,41-50
+63,64,Not Survived,Lower,"Skoog, Master. Harald",male,4.0,3,2,347088,27.9,,southampton,0-10
+64,65,Not Survived,Upper,"Stewart, Mr. Albert A",male,,0,0,PC 17605,27.7208,,Cherbourg,None
+65,66,Survived,Lower,"Moubarek, Master. Gerios",male,,1,1,2661,15.2458,,Cherbourg,None
+66,67,Survived,Middle,"Nye, Mrs. (Elizabeth Ramell)",female,29.0,0,0,C.A. 29395,10.5,F33,southampton,21-30
+67,68,Not Survived,Lower,"Crease, Mr. Ernest James",male,19.0,0,0,S.P. 3464,8.1583,,southampton,11-20
+68,69,Survived,Lower,"Andersson, Miss. Erna Alexandra",female,17.0,4,2,3101281,7.925,,southampton,11-20
+69,70,Not Survived,Lower,"Kink, Mr. Vincenz",male,26.0,2,0,315151,8.6625,,southampton,21-30
+70,71,Not Survived,Middle,"Jenkin, Mr. Stephen Curnow",male,32.0,0,0,C.A. 33111,10.5,,southampton,31-40
+71,72,Not Survived,Lower,"Goodwin, Miss. Lillian Amy",female,16.0,5,2,CA 2144,46.9,,southampton,11-20
+72,73,Not Survived,Middle,"Hood, Mr. Ambrose Jr",male,21.0,0,0,S.O.C. 14879,73.5,,southampton,21-30
+73,74,Not Survived,Lower,"Chronopoulos, Mr. Apostolos",male,26.0,1,0,2680,14.4542,,Cherbourg,21-30
+74,75,Survived,Lower,"Bing, Mr. Lee",male,32.0,0,0,1601,56.4958,,southampton,31-40
+75,76,Not Survived,Lower,"Moen, Mr. Sigurd Hansen",male,25.0,0,0,348123,7.65,F G73,southampton,21-30
+76,77,Not Survived,Lower,"Staneff, Mr. Ivan",male,,0,0,349208,7.8958,,southampton,None
+77,78,Not Survived,Lower,"Moutal, Mr. Rahamin Haim",male,,0,0,374746,8.05,,southampton,None
+78,79,Survived,Middle,"Caldwell, Master. Alden Gates",male,0.83,0,2,248738,29.0,,southampton,0-10
+79,80,Survived,Lower,"Dowdell, Miss. Elizabeth",female,30.0,0,0,364516,12.475,,southampton,21-30
+80,81,Not Survived,Lower,"Waelens, Mr. Achille",male,22.0,0,0,345767,9.0,,southampton,21-30
+81,82,Survived,Lower,"Sheerlinck, Mr. Jan Baptist",male,29.0,0,0,345779,9.5,,southampton,21-30
+82,83,Survived,Lower,"McDermott, Miss. Brigdet Delia",female,,0,0,330932,7.7875,,Queenstown,None
+83,84,Not Survived,Upper,"Carrau, Mr. Francisco M",male,28.0,0,0,113059,47.1,,southampton,21-30
+84,85,Survived,Middle,"Ilett, Miss. Bertha",female,17.0,0,0,SO/C 14885,10.5,,southampton,11-20
+85,86,Survived,Lower,"Backstrom, Mrs. Karl Alfred (Maria Mathilda Gustafsson)",female,33.0,3,0,3101278,15.85,,southampton,31-40
+86,87,Not Survived,Lower,"Ford, Mr. William Neal",male,16.0,1,3,W./C. 6608,34.375,,southampton,11-20
+87,88,Not Survived,Lower,"Slocovski, Mr. Selman Francis",male,,0,0,SOTON/OQ 392086,8.05,,southampton,None
+88,89,Survived,Upper,"Fortune, Miss. Mabel Helen",female,23.0,3,2,19950,263.0,C23 C25 C27,southampton,21-30
+89,90,Not Survived,Lower,"Celotti, Mr. Francesco",male,24.0,0,0,343275,8.05,,southampton,21-30
+90,91,Not Survived,Lower,"Christmann, Mr. Emil",male,29.0,0,0,343276,8.05,,southampton,21-30
+91,92,Not Survived,Lower,"Andreasson, Mr. Paul Edvin",male,20.0,0,0,347466,7.8542,,southampton,11-20
+92,93,Not Survived,Upper,"Chaffee, Mr. Herbert Fuller",male,46.0,1,0,W.E.P. 5734,61.175,E31,southampton,41-50
+93,94,Not Survived,Lower,"Dean, Mr. Bertram Frank",male,26.0,1,2,C.A. 2315,20.575,,southampton,21-30
+94,95,Not Survived,Lower,"Coxon, Mr. Daniel",male,59.0,0,0,364500,7.25,,southampton,51-60
+95,96,Not Survived,Lower,"Shorney, Mr. Charles Joseph",male,,0,0,374910,8.05,,southampton,None
+96,97,Not Survived,Upper,"Goldschmidt, Mr. George B",male,71.0,0,0,PC 17754,34.6542,A5,Cherbourg,71-80
+97,98,Survived,Upper,"Greenfield, Mr. William Bertram",male,23.0,0,1,PC 17759,63.3583,D10 D12,Cherbourg,21-30
+98,99,Survived,Middle,"Doling, Mrs. John T (Ada Julia Bone)",female,34.0,0,1,231919,23.0,,southampton,31-40
+99,100,Not Survived,Middle,"Kantor, Mr. Sinai",male,34.0,1,0,244367,26.0,,southampton,31-40
+100,101,Not Survived,Lower,"Petranec, Miss. Matilda",female,28.0,0,0,349245,7.8958,,southampton,21-30
+101,102,Not Survived,Lower,"Petroff, Mr. Pastcho (""Pentcho"")",male,,0,0,349215,7.8958,,southampton,None
+102,103,Not Survived,Upper,"White, Mr. Richard Frasar",male,21.0,0,1,35281,77.2875,D26,southampton,21-30
+103,104,Not Survived,Lower,"Johansson, Mr. Gustaf Joel",male,33.0,0,0,7540,8.6542,,southampton,31-40
+104,105,Not Survived,Lower,"Gustafsson, Mr. Anders Vilhelm",male,37.0,2,0,3101276,7.925,,southampton,31-40
+105,106,Not Survived,Lower,"Mionoff, Mr. Stoytcho",male,28.0,0,0,349207,7.8958,,southampton,21-30
+106,107,Survived,Lower,"Salkjelsvik, Miss. Anna Kristine",female,21.0,0,0,343120,7.65,,southampton,21-30
+107,108,Survived,Lower,"Moss, Mr. Albert Johan",male,,0,0,312991,7.775,,southampton,None
+108,109,Not Survived,Lower,"Rekic, Mr. Tido",male,38.0,0,0,349249,7.8958,,southampton,31-40
+109,110,Survived,Lower,"Moran, Miss. Bertha",female,,1,0,371110,24.15,,Queenstown,None
+110,111,Not Survived,Upper,"Porter, Mr. Walter Chamberlain",male,47.0,0,0,110465,52.0,C110,southampton,41-50
+111,112,Not Survived,Lower,"Zabour, Miss. Hileni",female,14.5,1,0,2665,14.4542,,Cherbourg,11-20
+112,113,Not Survived,Lower,"Barton, Mr. David John",male,22.0,0,0,324669,8.05,,southampton,21-30
+113,114,Not Survived,Lower,"Jussila, Miss. Katriina",female,20.0,1,0,4136,9.825,,southampton,11-20
+114,115,Not Survived,Lower,"Attalah, Miss. Malake",female,17.0,0,0,2627,14.4583,,Cherbourg,11-20
+115,116,Not Survived,Lower,"Pekoniemi, Mr. Edvard",male,21.0,0,0,STON/O 2. 3101294,7.925,,southampton,21-30
+116,117,Not Survived,Lower,"Connors, Mr. Patrick",male,70.5,0,0,370369,7.75,,Queenstown,71-80
+117,118,Not Survived,Middle,"Turpin, Mr. William John Robert",male,29.0,1,0,11668,21.0,,southampton,21-30
+118,119,Not Survived,Upper,"Baxter, Mr. Quigg Edmond",male,24.0,0,1,PC 17558,247.5208,B58 B60,Cherbourg,21-30
+119,120,Not Survived,Lower,"Andersson, Miss. Ellis Anna Maria",female,2.0,4,2,347082,31.275,,southampton,0-10
+120,121,Not Survived,Middle,"Hickman, Mr. Stanley George",male,21.0,2,0,S.O.C. 14879,73.5,,southampton,21-30
+121,122,Not Survived,Lower,"Moore, Mr. Leonard Charles",male,,0,0,A4. 54510,8.05,,southampton,None
+122,123,Not Survived,Middle,"Nasser, Mr. Nicholas",male,32.5,1,0,237736,30.0708,,Cherbourg,31-40
+123,124,Survived,Middle,"Webber, Miss. Susan",female,32.5,0,0,27267,13.0,E101,southampton,31-40
+124,125,Not Survived,Upper,"White, Mr. Percival Wayland",male,54.0,0,1,35281,77.2875,D26,southampton,51-60
+125,126,Survived,Lower,"Nicola-Yarred, Master. Elias",male,12.0,1,0,2651,11.2417,,Cherbourg,11-20
+126,127,Not Survived,Lower,"McMahon, Mr. Martin",male,,0,0,370372,7.75,,Queenstown,None
+127,128,Survived,Lower,"Madsen, Mr. Fridtjof Arne",male,24.0,0,0,C 17369,7.1417,,southampton,21-30
+128,129,Survived,Lower,"Peter, Miss. Anna",female,,1,1,2668,22.3583,F E69,Cherbourg,None
+129,130,Not Survived,Lower,"Ekstrom, Mr. Johan",male,45.0,0,0,347061,6.975,,southampton,41-50
+130,131,Not Survived,Lower,"Drazenoic, Mr. Jozef",male,33.0,0,0,349241,7.8958,,Cherbourg,31-40
+131,132,Not Survived,Lower,"Coelho, Mr. Domingos Fernandeo",male,20.0,0,0,SOTON/O.Q. 3101307,7.05,,southampton,11-20
+132,133,Not Survived,Lower,"Robins, Mrs. Alexander A (Grace Charity Laury)",female,47.0,1,0,A/5. 3337,14.5,,southampton,41-50
+133,134,Survived,Middle,"Weisz, Mrs. Leopold (Mathilde Francoise Pede)",female,29.0,1,0,228414,26.0,,southampton,21-30
+134,135,Not Survived,Middle,"Sobey, Mr. Samuel James Hayden",male,25.0,0,0,C.A. 29178,13.0,,southampton,21-30
+135,136,Not Survived,Middle,"Richard, Mr. Emile",male,23.0,0,0,SC/PARIS 2133,15.0458,,Cherbourg,21-30
+136,137,Survived,Upper,"Newsom, Miss. Helen Monypeny",female,19.0,0,2,11752,26.2833,D47,southampton,11-20
+137,138,Not Survived,Upper,"Futrelle, Mr. Jacques Heath",male,37.0,1,0,113803,53.1,C123,southampton,31-40
+138,139,Not Survived,Lower,"Osen, Mr. Olaf Elon",male,16.0,0,0,7534,9.2167,,southampton,11-20
+139,140,Not Survived,Upper,"Giglio, Mr. Victor",male,24.0,0,0,PC 17593,79.2,B86,Cherbourg,21-30
+140,141,Not Survived,Lower,"Boulos, Mrs. Joseph (Sultana)",female,,0,2,2678,15.2458,,Cherbourg,None
+141,142,Survived,Lower,"Nysten, Miss. Anna Sofia",female,22.0,0,0,347081,7.75,,southampton,21-30
+142,143,Survived,Lower,"Hakkarainen, Mrs. Pekka Pietari (Elin Matilda Dolck)",female,24.0,1,0,STON/O2. 3101279,15.85,,southampton,21-30
+143,144,Not Survived,Lower,"Burke, Mr. Jeremiah",male,19.0,0,0,365222,6.75,,Queenstown,11-20
+144,145,Not Survived,Middle,"Andrew, Mr. Edgardo Samuel",male,18.0,0,0,231945,11.5,,southampton,11-20
+145,146,Not Survived,Middle,"Nicholls, Mr. Joseph Charles",male,19.0,1,1,C.A. 33112,36.75,,southampton,11-20
+146,147,Survived,Lower,"Andersson, Mr. August Edvard (""Wennerstrom"")",male,27.0,0,0,350043,7.7958,,southampton,21-30
+147,148,Not Survived,Lower,"Ford, Miss. Robina Maggie ""Ruby""",female,9.0,2,2,W./C. 6608,34.375,,southampton,0-10
+148,149,Not Survived,Middle,"Navratil, Mr. Michel (""Louis M Hoffman"")",male,36.5,0,2,230080,26.0,F2,southampton,31-40
+149,150,Not Survived,Middle,"Byles, Rev. Thomas Roussel Davids",male,42.0,0,0,244310,13.0,,southampton,41-50
+150,151,Not Survived,Middle,"Bateman, Rev. Robert James",male,51.0,0,0,S.O.P. 1166,12.525,,southampton,51-60
+151,152,Survived,Upper,"Pears, Mrs. Thomas (Edith Wearne)",female,22.0,1,0,113776,66.6,C2,southampton,21-30
+152,153,Not Survived,Lower,"Meo, Mr. Alfonzo",male,55.5,0,0,A.5. 11206,8.05,,southampton,51-60
+153,154,Not Survived,Lower,"van Billiard, Mr. Austin Blyler",male,40.5,0,2,A/5. 851,14.5,,southampton,41-50
+154,155,Not Survived,Lower,"Olsen, Mr. Ole Martin",male,,0,0,Fa 265302,7.3125,,southampton,None
+155,156,Not Survived,Upper,"Williams, Mr. Charles Duane",male,51.0,0,1,PC 17597,61.3792,,Cherbourg,51-60
+156,157,Survived,Lower,"Gilnagh, Miss. Katherine ""Katie""",female,16.0,0,0,35851,7.7333,,Queenstown,11-20
+157,158,Not Survived,Lower,"Corn, Mr. Harry",male,30.0,0,0,SOTON/OQ 392090,8.05,,southampton,21-30
+158,159,Not Survived,Lower,"Smiljanic, Mr. Mile",male,,0,0,315037,8.6625,,southampton,None
+159,160,Not Survived,Lower,"Sage, Master. Thomas Henry",male,,8,2,CA. 2343,69.55,,southampton,None
+160,161,Not Survived,Lower,"Cribb, Mr. John Hatfield",male,44.0,0,1,371362,16.1,,southampton,41-50
+161,162,Survived,Middle,"Watt, Mrs. James (Elizabeth ""Bessie"" Inglis Milne)",female,40.0,0,0,C.A. 33595,15.75,,southampton,31-40
+162,163,Not Survived,Lower,"Bengtsson, Mr. John Viktor",male,26.0,0,0,347068,7.775,,southampton,21-30
+163,164,Not Survived,Lower,"Calic, Mr. Jovo",male,17.0,0,0,315093,8.6625,,southampton,11-20
+164,165,Not Survived,Lower,"Panula, Master. Eino Viljami",male,1.0,4,1,3101295,39.6875,,southampton,0-10
+165,166,Survived,Lower,"Goldsmith, Master. Frank John William ""Frankie""",male,9.0,0,2,363291,20.525,,southampton,0-10
+166,167,Survived,Upper,"Chibnall, Mrs. (Edith Martha Bowerman)",female,,0,1,113505,55.0,E33,southampton,None
+167,168,Not Survived,Lower,"Skoog, Mrs. William (Anna Bernhardina Karlsson)",female,45.0,1,4,347088,27.9,,southampton,41-50
+168,169,Not Survived,Upper,"Baumann, Mr. John D",male,,0,0,PC 17318,25.925,,southampton,None
+169,170,Not Survived,Lower,"Ling, Mr. Lee",male,28.0,0,0,1601,56.4958,,southampton,21-30
+170,171,Not Survived,Upper,"Van der hoef, Mr. Wyckoff",male,61.0,0,0,111240,33.5,B19,southampton,61-70
+171,172,Not Survived,Lower,"Rice, Master. Arthur",male,4.0,4,1,382652,29.125,,Queenstown,0-10
+172,173,Survived,Lower,"Johnson, Miss. Eleanor Ileen",female,1.0,1,1,347742,11.1333,,southampton,0-10
+173,174,Not Survived,Lower,"Sivola, Mr. Antti Wilhelm",male,21.0,0,0,STON/O 2. 3101280,7.925,,southampton,21-30
+174,175,Not Survived,Upper,"Smith, Mr. James Clinch",male,56.0,0,0,17764,30.6958,A7,Cherbourg,51-60
+175,176,Not Survived,Lower,"Klasen, Mr. Klas Albin",male,18.0,1,1,350404,7.8542,,southampton,11-20
+176,177,Not Survived,Lower,"Lefebre, Master. Henry Forbes",male,,3,1,4133,25.4667,,southampton,None
+177,178,Not Survived,Upper,"Isham, Miss. Ann Elizabeth",female,50.0,0,0,PC 17595,28.7125,C49,Cherbourg,41-50
+178,179,Not Survived,Middle,"Hale, Mr. Reginald",male,30.0,0,0,250653,13.0,,southampton,21-30
+179,180,Not Survived,Lower,"Leonard, Mr. Lionel",male,36.0,0,0,LINE,0.0,,southampton,31-40
+180,181,Not Survived,Lower,"Sage, Miss. Constance Gladys",female,,8,2,CA. 2343,69.55,,southampton,None
+181,182,Not Survived,Middle,"Pernot, Mr. Rene",male,,0,0,SC/PARIS 2131,15.05,,Cherbourg,None
+182,183,Not Survived,Lower,"Asplund, Master. Clarence Gustaf Hugo",male,9.0,4,2,347077,31.3875,,southampton,0-10
+183,184,Survived,Middle,"Becker, Master. Richard F",male,1.0,2,1,230136,39.0,F4,southampton,0-10
+184,185,Survived,Lower,"Kink-Heilmann, Miss. Luise Gretchen",female,4.0,0,2,315153,22.025,,southampton,0-10
+185,186,Not Survived,Upper,"Rood, Mr. Hugh Roscoe",male,,0,0,113767,50.0,A32,southampton,None
+186,187,Survived,Lower,"O'Brien, Mrs. Thomas (Johanna ""Hannah"" Godfrey)",female,,1,0,370365,15.5,,Queenstown,None
+187,188,Survived,Upper,"Romaine, Mr. Charles Hallace (""Mr C Rolmane"")",male,45.0,0,0,111428,26.55,,southampton,41-50
+188,189,Not Survived,Lower,"Bourke, Mr. John",male,40.0,1,1,364849,15.5,,Queenstown,31-40
+189,190,Not Survived,Lower,"Turcin, Mr. Stjepan",male,36.0,0,0,349247,7.8958,,southampton,31-40
+190,191,Survived,Middle,"Pinsky, Mrs. (Rosa)",female,32.0,0,0,234604,13.0,,southampton,31-40
+191,192,Not Survived,Middle,"Carbines, Mr. William",male,19.0,0,0,28424,13.0,,southampton,11-20
+192,193,Survived,Lower,"Andersen-Jensen, Miss. Carla Christine Nielsine",female,19.0,1,0,350046,7.8542,,southampton,11-20
+193,194,Survived,Middle,"Navratil, Master. Michel M",male,3.0,1,1,230080,26.0,F2,southampton,0-10
+194,195,Survived,Upper,"Brown, Mrs. James Joseph (Margaret Tobin)",female,44.0,0,0,PC 17610,27.7208,B4,Cherbourg,41-50
+195,196,Survived,Upper,"Lurette, Miss. Elise",female,58.0,0,0,PC 17569,146.5208,B80,Cherbourg,51-60
+196,197,Not Survived,Lower,"Mernagh, Mr. Robert",male,,0,0,368703,7.75,,Queenstown,None
+197,198,Not Survived,Lower,"Olsen, Mr. Karl Siegwart Andreas",male,42.0,0,1,4579,8.4042,,southampton,41-50
+198,199,Survived,Lower,"Madigan, Miss. Margaret ""Maggie""",female,,0,0,370370,7.75,,Queenstown,None
+199,200,Not Survived,Middle,"Yrois, Miss. Henriette (""Mrs Harbeck"")",female,24.0,0,0,248747,13.0,,southampton,21-30
+200,201,Not Survived,Lower,"Vande Walle, Mr. Nestor Cyriel",male,28.0,0,0,345770,9.5,,southampton,21-30
+201,202,Not Survived,Lower,"Sage, Mr. Frederick",male,,8,2,CA. 2343,69.55,,southampton,None
+202,203,Not Survived,Lower,"Johanson, Mr. Jakob Alfred",male,34.0,0,0,3101264,6.4958,,southampton,31-40
+203,204,Not Survived,Lower,"Youseff, Mr. Gerious",male,45.5,0,0,2628,7.225,,Cherbourg,41-50
+204,205,Survived,Lower,"Cohen, Mr. Gurshon ""Gus""",male,18.0,0,0,A/5 3540,8.05,,southampton,11-20
+205,206,Not Survived,Lower,"Strom, Miss. Telma Matilda",female,2.0,0,1,347054,10.4625,G6,southampton,0-10
+206,207,Not Survived,Lower,"Backstrom, Mr. Karl Alfred",male,32.0,1,0,3101278,15.85,,southampton,31-40
+207,208,Survived,Lower,"Albimona, Mr. Nassef Cassem",male,26.0,0,0,2699,18.7875,,Cherbourg,21-30
+208,209,Survived,Lower,"Carr, Miss. Helen ""Ellen""",female,16.0,0,0,367231,7.75,,Queenstown,11-20
+209,210,Survived,Upper,"Blank, Mr. Henry",male,40.0,0,0,112277,31.0,A31,Cherbourg,31-40
+210,211,Not Survived,Lower,"Ali, Mr. Ahmed",male,24.0,0,0,SOTON/O.Q. 3101311,7.05,,southampton,21-30
+211,212,Survived,Middle,"Cameron, Miss. Clear Annie",female,35.0,0,0,F.C.C. 13528,21.0,,southampton,31-40
+212,213,Not Survived,Lower,"Perkin, Mr. John Henry",male,22.0,0,0,A/5 21174,7.25,,southampton,21-30
+213,214,Not Survived,Middle,"Givard, Mr. Hans Kristensen",male,30.0,0,0,250646,13.0,,southampton,21-30
+214,215,Not Survived,Lower,"Kiernan, Mr. Philip",male,,1,0,367229,7.75,,Queenstown,None
+215,216,Survived,Upper,"Newell, Miss. Madeleine",female,31.0,1,0,35273,113.275,D36,Cherbourg,31-40
+216,217,Survived,Lower,"Honkanen, Miss. Eliina",female,27.0,0,0,STON/O2. 3101283,7.925,,southampton,21-30
+217,218,Not Survived,Middle,"Jacobsohn, Mr. Sidney Samuel",male,42.0,1,0,243847,27.0,,southampton,41-50
+218,219,Survived,Upper,"Bazzani, Miss. Albina",female,32.0,0,0,11813,76.2917,D15,Cherbourg,31-40
+219,220,Not Survived,Middle,"Harris, Mr. Walter",male,30.0,0,0,W/C 14208,10.5,,southampton,21-30
+220,221,Survived,Lower,"Sunderland, Mr. Victor Francis",male,16.0,0,0,SOTON/OQ 392089,8.05,,southampton,11-20
+221,222,Not Survived,Middle,"Bracken, Mr. James H",male,27.0,0,0,220367,13.0,,southampton,21-30
+222,223,Not Survived,Lower,"Green, Mr. George Henry",male,51.0,0,0,21440,8.05,,southampton,51-60
+223,224,Not Survived,Lower,"Nenkoff, Mr. Christo",male,,0,0,349234,7.8958,,southampton,None
+224,225,Survived,Upper,"Hoyt, Mr. Frederick Maxfield",male,38.0,1,0,19943,90.0,C93,southampton,31-40
+225,226,Not Survived,Lower,"Berglund, Mr. Karl Ivar Sven",male,22.0,0,0,PP 4348,9.35,,southampton,21-30
+226,227,Survived,Middle,"Mellors, Mr. William John",male,19.0,0,0,SW/PP 751,10.5,,southampton,11-20
+227,228,Not Survived,Lower,"Lovell, Mr. John Hall (""Henry"")",male,20.5,0,0,A/5 21173,7.25,,southampton,21-30
+228,229,Not Survived,Middle,"Fahlstrom, Mr. Arne Jonas",male,18.0,0,0,236171,13.0,,southampton,11-20
+229,230,Not Survived,Lower,"Lefebre, Miss. Mathilde",female,,3,1,4133,25.4667,,southampton,None
+230,231,Survived,Upper,"Harris, Mrs. Henry Birkhardt (Irene Wallach)",female,35.0,1,0,36973,83.475,C83,southampton,31-40
+231,232,Not Survived,Lower,"Larsson, Mr. Bengt Edvin",male,29.0,0,0,347067,7.775,,southampton,21-30
+232,233,Not Survived,Middle,"Sjostedt, Mr. Ernst Adolf",male,59.0,0,0,237442,13.5,,southampton,51-60
+233,234,Survived,Lower,"Asplund, Miss. Lillian Gertrud",female,5.0,4,2,347077,31.3875,,southampton,0-10
+234,235,Not Survived,Middle,"Leyson, Mr. Robert William Norman",male,24.0,0,0,C.A. 29566,10.5,,southampton,21-30
+235,236,Not Survived,Lower,"Harknett, Miss. Alice Phoebe",female,,0,0,W./C. 6609,7.55,,southampton,None
+236,237,Not Survived,Middle,"Hold, Mr. Stephen",male,44.0,1,0,26707,26.0,,southampton,41-50
+237,238,Survived,Middle,"Collyer, Miss. Marjorie ""Lottie""",female,8.0,0,2,C.A. 31921,26.25,,southampton,0-10
+238,239,Not Survived,Middle,"Pengelly, Mr. Frederick William",male,19.0,0,0,28665,10.5,,southampton,11-20
+239,240,Not Survived,Middle,"Hunt, Mr. George Henry",male,33.0,0,0,SCO/W 1585,12.275,,southampton,31-40
+240,241,Not Survived,Lower,"Zabour, Miss. Thamine",female,,1,0,2665,14.4542,,Cherbourg,None
+241,242,Survived,Lower,"Murphy, Miss. Katherine ""Kate""",female,,1,0,367230,15.5,,Queenstown,None
+242,243,Not Survived,Middle,"Coleridge, Mr. Reginald Charles",male,29.0,0,0,W./C. 14263,10.5,,southampton,21-30
+243,244,Not Survived,Lower,"Maenpaa, Mr. Matti Alexanteri",male,22.0,0,0,STON/O 2. 3101275,7.125,,southampton,21-30
+244,245,Not Survived,Lower,"Attalah, Mr. Sleiman",male,30.0,0,0,2694,7.225,,Cherbourg,21-30
+245,246,Not Survived,Upper,"Minahan, Dr. William Edward",male,44.0,2,0,19928,90.0,C78,Queenstown,41-50
+246,247,Not Survived,Lower,"Lindahl, Miss. Agda Thorilda Viktoria",female,25.0,0,0,347071,7.775,,southampton,21-30
+247,248,Survived,Middle,"Hamalainen, Mrs. William (Anna)",female,24.0,0,2,250649,14.5,,southampton,21-30
+248,249,Survived,Upper,"Beckwith, Mr. Richard Leonard",male,37.0,1,1,11751,52.5542,D35,southampton,31-40
+249,250,Not Survived,Middle,"Carter, Rev. Ernest Courtenay",male,54.0,1,0,244252,26.0,,southampton,51-60
+250,251,Not Survived,Lower,"Reed, Mr. James George",male,,0,0,362316,7.25,,southampton,None
+251,252,Not Survived,Lower,"Strom, Mrs. Wilhelm (Elna Matilda Persson)",female,29.0,1,1,347054,10.4625,G6,southampton,21-30
+252,253,Not Survived,Upper,"Stead, Mr. William Thomas",male,62.0,0,0,113514,26.55,C87,southampton,61-70
+253,254,Not Survived,Lower,"Lobb, Mr. William Arthur",male,30.0,1,0,A/5. 3336,16.1,,southampton,21-30
+254,255,Not Survived,Lower,"Rosblom, Mrs. Viktor (Helena Wilhelmina)",female,41.0,0,2,370129,20.2125,,southampton,41-50
+255,256,Survived,Lower,"Touma, Mrs. Darwis (Hanne Youssef Razi)",female,29.0,0,2,2650,15.2458,,Cherbourg,21-30
+256,257,Survived,Upper,"Thorne, Mrs. Gertrude Maybelle",female,,0,0,PC 17585,79.2,,Cherbourg,None
+257,258,Survived,Upper,"Cherry, Miss. Gladys",female,30.0,0,0,110152,86.5,B77,southampton,21-30
+258,259,Survived,Upper,"Ward, Miss. Anna",female,35.0,0,0,PC 17755,512.3292,,Cherbourg,31-40
+259,260,Survived,Middle,"Parrish, Mrs. (Lutie Davis)",female,50.0,0,1,230433,26.0,,southampton,41-50
+260,261,Not Survived,Lower,"Smith, Mr. Thomas",male,,0,0,384461,7.75,,Queenstown,None
+261,262,Survived,Lower,"Asplund, Master. Edvin Rojj Felix",male,3.0,4,2,347077,31.3875,,southampton,0-10
+262,263,Not Survived,Upper,"Taussig, Mr. Emil",male,52.0,1,1,110413,79.65,E67,southampton,51-60
+263,264,Not Survived,Upper,"Harrison, Mr. William",male,40.0,0,0,112059,0.0,B94,southampton,31-40
+264,265,Not Survived,Lower,"Henry, Miss. Delia",female,,0,0,382649,7.75,,Queenstown,None
+265,266,Not Survived,Middle,"Reeves, Mr. David",male,36.0,0,0,C.A. 17248,10.5,,southampton,31-40
+266,267,Not Survived,Lower,"Panula, Mr. Ernesti Arvid",male,16.0,4,1,3101295,39.6875,,southampton,11-20
+267,268,Survived,Lower,"Persson, Mr. Ernst Ulrik",male,25.0,1,0,347083,7.775,,southampton,21-30
+268,269,Survived,Upper,"Graham, Mrs. William Thompson (Edith Junkins)",female,58.0,0,1,PC 17582,153.4625,C125,southampton,51-60
+269,270,Survived,Upper,"Bissette, Miss. Amelia",female,35.0,0,0,PC 17760,135.6333,C99,southampton,31-40
+270,271,Not Survived,Upper,"Cairns, Mr. Alexander",male,,0,0,113798,31.0,,southampton,None
+271,272,Survived,Lower,"Tornquist, Mr. William Henry",male,25.0,0,0,LINE,0.0,,southampton,21-30
+272,273,Survived,Middle,"Mellinger, Mrs. (Elizabeth Anne Maidment)",female,41.0,0,1,250644,19.5,,southampton,41-50
+273,274,Not Survived,Upper,"Natsch, Mr. Charles H",male,37.0,0,1,PC 17596,29.7,C118,Cherbourg,31-40
+274,275,Survived,Lower,"Healy, Miss. Hanora ""Nora""",female,,0,0,370375,7.75,,Queenstown,None
+275,276,Survived,Upper,"Andrews, Miss. Kornelia Theodosia",female,63.0,1,0,13502,77.9583,D7,southampton,61-70
+276,277,Not Survived,Lower,"Lindblom, Miss. Augusta Charlotta",female,45.0,0,0,347073,7.75,,southampton,41-50
+277,278,Not Survived,Middle,"Parkes, Mr. Francis ""Frank""",male,,0,0,239853,0.0,,southampton,None
+278,279,Not Survived,Lower,"Rice, Master. Eric",male,7.0,4,1,382652,29.125,,Queenstown,0-10
+279,280,Survived,Lower,"Abbott, Mrs. Stanton (Rosa Hunt)",female,35.0,1,1,C.A. 2673,20.25,,southampton,31-40
+280,281,Not Survived,Lower,"Duane, Mr. Frank",male,65.0,0,0,336439,7.75,,Queenstown,61-70
+281,282,Not Survived,Lower,"Olsson, Mr. Nils Johan Goransson",male,28.0,0,0,347464,7.8542,,southampton,21-30
+282,283,Not Survived,Lower,"de Pelsmaeker, Mr. Alfons",male,16.0,0,0,345778,9.5,,southampton,11-20
+283,284,Survived,Lower,"Dorking, Mr. Edward Arthur",male,19.0,0,0,A/5. 10482,8.05,,southampton,11-20
+284,285,Not Survived,Upper,"Smith, Mr. Richard William",male,,0,0,113056,26.0,A19,southampton,None
+285,286,Not Survived,Lower,"Stankovic, Mr. Ivan",male,33.0,0,0,349239,8.6625,,Cherbourg,31-40
+286,287,Survived,Lower,"de Mulder, Mr. Theodore",male,30.0,0,0,345774,9.5,,southampton,21-30
+287,288,Not Survived,Lower,"Naidenoff, Mr. Penko",male,22.0,0,0,349206,7.8958,,southampton,21-30
+288,289,Survived,Middle,"Hosono, Mr. Masabumi",male,42.0,0,0,237798,13.0,,southampton,41-50
+289,290,Survived,Lower,"Connolly, Miss. Kate",female,22.0,0,0,370373,7.75,,Queenstown,21-30
+290,291,Survived,Upper,"Barber, Miss. Ellen ""Nellie""",female,26.0,0,0,19877,78.85,,southampton,21-30
+291,292,Survived,Upper,"Bishop, Mrs. Dickinson H (Helen Walton)",female,19.0,1,0,11967,91.0792,B49,Cherbourg,11-20
+292,293,Not Survived,Middle,"Levy, Mr. Rene Jacques",male,36.0,0,0,SC/Paris 2163,12.875,D,Cherbourg,31-40
+293,294,Not Survived,Lower,"Haas, Miss. Aloisia",female,24.0,0,0,349236,8.85,,southampton,21-30
+294,295,Not Survived,Lower,"Mineff, Mr. Ivan",male,24.0,0,0,349233,7.8958,,southampton,21-30
+295,296,Not Survived,Upper,"Lewy, Mr. Ervin G",male,,0,0,PC 17612,27.7208,,Cherbourg,None
+296,297,Not Survived,Lower,"Hanna, Mr. Mansour",male,23.5,0,0,2693,7.2292,,Cherbourg,21-30
+297,298,Not Survived,Upper,"Allison, Miss. Helen Loraine",female,2.0,1,2,113781,151.55,C22 C26,southampton,0-10
+298,299,Survived,Upper,"Saalfeld, Mr. Adolphe",male,,0,0,19988,30.5,C106,southampton,None
+299,300,Survived,Upper,"Baxter, Mrs. James (Helene DeLaudeniere Chaput)",female,50.0,0,1,PC 17558,247.5208,B58 B60,Cherbourg,41-50
+300,301,Survived,Lower,"Kelly, Miss. Anna Katherine ""Annie Kate""",female,,0,0,9234,7.75,,Queenstown,None
+301,302,Survived,Lower,"McCoy, Mr. Bernard",male,,2,0,367226,23.25,,Queenstown,None
+302,303,Not Survived,Lower,"Johnson, Mr. William Cahoone Jr",male,19.0,0,0,LINE,0.0,,southampton,11-20
+303,304,Survived,Middle,"Keane, Miss. Nora A",female,,0,0,226593,12.35,E101,Queenstown,None
+304,305,Not Survived,Lower,"Williams, Mr. Howard Hugh ""Harry""",male,,0,0,A/5 2466,8.05,,southampton,None
+305,306,Survived,Upper,"Allison, Master. Hudson Trevor",male,0.92,1,2,113781,151.55,C22 C26,southampton,0-10
+306,307,Survived,Upper,"Fleming, Miss. Margaret",female,,0,0,17421,110.8833,,Cherbourg,None
+307,308,Survived,Upper,"Penasco y Castellana, Mrs. Victor de Satode (Maria Josefa Perez de Soto y Vallejo)",female,17.0,1,0,PC 17758,108.9,C65,Cherbourg,11-20
+308,309,Not Survived,Middle,"Abelson, Mr. Samuel",male,30.0,1,0,P/PP 3381,24.0,,Cherbourg,21-30
+309,310,Survived,Upper,"Francatelli, Miss. Laura Mabel",female,30.0,0,0,PC 17485,56.9292,E36,Cherbourg,21-30
+310,311,Survived,Upper,"Hays, Miss. Margaret Bechstein",female,24.0,0,0,11767,83.1583,C54,Cherbourg,21-30
+311,312,Survived,Upper,"Ryerson, Miss. Emily Borie",female,18.0,2,2,PC 17608,262.375,B57 B59 B63 B66,Cherbourg,11-20
+312,313,Not Survived,Middle,"Lahtinen, Mrs. William (Anna Sylfven)",female,26.0,1,1,250651,26.0,,southampton,21-30
+313,314,Not Survived,Lower,"Hendekovic, Mr. Ignjac",male,28.0,0,0,349243,7.8958,,southampton,21-30
+314,315,Not Survived,Middle,"Hart, Mr. Benjamin",male,43.0,1,1,F.C.C. 13529,26.25,,southampton,41-50
+315,316,Survived,Lower,"Nilsson, Miss. Helmina Josefina",female,26.0,0,0,347470,7.8542,,southampton,21-30
+316,317,Survived,Middle,"Kantor, Mrs. Sinai (Miriam Sternin)",female,24.0,1,0,244367,26.0,,southampton,21-30
+317,318,Not Survived,Middle,"Moraweck, Dr. Ernest",male,54.0,0,0,29011,14.0,,southampton,51-60
+318,319,Survived,Upper,"Wick, Miss. Mary Natalie",female,31.0,0,2,36928,164.8667,C7,southampton,31-40
+319,320,Survived,Upper,"Spedden, Mrs. Frederic Oakley (Margaretta Corning Stone)",female,40.0,1,1,16966,134.5,E34,Cherbourg,31-40
+320,321,Not Survived,Lower,"Dennis, Mr. Samuel",male,22.0,0,0,A/5 21172,7.25,,southampton,21-30
+321,322,Not Survived,Lower,"Danoff, Mr. Yoto",male,27.0,0,0,349219,7.8958,,southampton,21-30
+322,323,Survived,Middle,"Slayter, Miss. Hilda Mary",female,30.0,0,0,234818,12.35,,Queenstown,21-30
+323,324,Survived,Middle,"Caldwell, Mrs. Albert Francis (Sylvia Mae Harbaugh)",female,22.0,1,1,248738,29.0,,southampton,21-30
+324,325,Not Survived,Lower,"Sage, Mr. George John Jr",male,,8,2,CA. 2343,69.55,,southampton,None
+325,326,Survived,Upper,"Young, Miss. Marie Grice",female,36.0,0,0,PC 17760,135.6333,C32,Cherbourg,31-40
+326,327,Not Survived,Lower,"Nysveen, Mr. Johan Hansen",male,61.0,0,0,345364,6.2375,,southampton,61-70
+327,328,Survived,Middle,"Ball, Mrs. (Ada E Hall)",female,36.0,0,0,28551,13.0,D,southampton,31-40
+328,329,Survived,Lower,"Goldsmith, Mrs. Frank John (Emily Alice Brown)",female,31.0,1,1,363291,20.525,,southampton,31-40
+329,330,Survived,Upper,"Hippach, Miss. Jean Gertrude",female,16.0,0,1,111361,57.9792,B18,Cherbourg,11-20
+330,331,Survived,Lower,"McCoy, Miss. Agnes",female,,2,0,367226,23.25,,Queenstown,None
+331,332,Not Survived,Upper,"Partner, Mr. Austen",male,45.5,0,0,113043,28.5,C124,southampton,41-50
+332,333,Not Survived,Upper,"Graham, Mr. George Edward",male,38.0,0,1,PC 17582,153.4625,C91,southampton,31-40
+333,334,Not Survived,Lower,"Vander Planke, Mr. Leo Edmondus",male,16.0,2,0,345764,18.0,,southampton,11-20
+334,335,Survived,Upper,"Frauenthal, Mrs. Henry William (Clara Heinsheimer)",female,,1,0,PC 17611,133.65,,southampton,None
+335,336,Not Survived,Lower,"Denkoff, Mr. Mitto",male,,0,0,349225,7.8958,,southampton,None
+336,337,Not Survived,Upper,"Pears, Mr. Thomas Clinton",male,29.0,1,0,113776,66.6,C2,southampton,21-30
+337,338,Survived,Upper,"Burns, Miss. Elizabeth Margaret",female,41.0,0,0,16966,134.5,E40,Cherbourg,41-50
+338,339,Survived,Lower,"Dahl, Mr. Karl Edwart",male,45.0,0,0,7598,8.05,,southampton,41-50
+339,340,Not Survived,Upper,"Blackwell, Mr. Stephen Weart",male,45.0,0,0,113784,35.5,T,southampton,41-50
+340,341,Survived,Middle,"Navratil, Master. Edmond Roger",male,2.0,1,1,230080,26.0,F2,southampton,0-10
+341,342,Survived,Upper,"Fortune, Miss. Alice Elizabeth",female,24.0,3,2,19950,263.0,C23 C25 C27,southampton,21-30
+342,343,Not Survived,Middle,"Collander, Mr. Erik Gustaf",male,28.0,0,0,248740,13.0,,southampton,21-30
+343,344,Not Survived,Middle,"Sedgwick, Mr. Charles Frederick Waddington",male,25.0,0,0,244361,13.0,,southampton,21-30
+344,345,Not Survived,Middle,"Fox, Mr. Stanley Hubert",male,36.0,0,0,229236,13.0,,southampton,31-40
+345,346,Survived,Middle,"Brown, Miss. Amelia ""Mildred""",female,24.0,0,0,248733,13.0,F33,southampton,21-30
+346,347,Survived,Middle,"Smith, Miss. Marion Elsie",female,40.0,0,0,31418,13.0,,southampton,31-40
+347,348,Survived,Lower,"Davison, Mrs. Thomas Henry (Mary E Finck)",female,,1,0,386525,16.1,,southampton,None
+348,349,Survived,Lower,"Coutts, Master. William Loch ""William""",male,3.0,1,1,C.A. 37671,15.9,,southampton,0-10
+349,350,Not Survived,Lower,"Dimic, Mr. Jovan",male,42.0,0,0,315088,8.6625,,southampton,41-50
+350,351,Not Survived,Lower,"Odahl, Mr. Nils Martin",male,23.0,0,0,7267,9.225,,southampton,21-30
+351,352,Not Survived,Upper,"Williams-Lambert, Mr. Fletcher Fellows",male,,0,0,113510,35.0,C128,southampton,None
+352,353,Not Survived,Lower,"Elias, Mr. Tannous",male,15.0,1,1,2695,7.2292,,Cherbourg,11-20
+353,354,Not Survived,Lower,"Arnold-Franchi, Mr. Josef",male,25.0,1,0,349237,17.8,,southampton,21-30
+354,355,Not Survived,Lower,"Yousif, Mr. Wazli",male,,0,0,2647,7.225,,Cherbourg,None
+355,356,Not Survived,Lower,"Vanden Steen, Mr. Leo Peter",male,28.0,0,0,345783,9.5,,southampton,21-30
+356,357,Survived,Upper,"Bowerman, Miss. Elsie Edith",female,22.0,0,1,113505,55.0,E33,southampton,21-30
+357,358,Not Survived,Middle,"Funk, Miss. Annie Clemmer",female,38.0,0,0,237671,13.0,,southampton,31-40
+358,359,Survived,Lower,"McGovern, Miss. Mary",female,,0,0,330931,7.8792,,Queenstown,None
+359,360,Survived,Lower,"Mockler, Miss. Helen Mary ""Ellie""",female,,0,0,330980,7.8792,,Queenstown,None
+360,361,Not Survived,Lower,"Skoog, Mr. Wilhelm",male,40.0,1,4,347088,27.9,,southampton,31-40
+361,362,Not Survived,Middle,"del Carlo, Mr. Sebastiano",male,29.0,1,0,SC/PARIS 2167,27.7208,,Cherbourg,21-30
+362,363,Not Survived,Lower,"Barbara, Mrs. (Catherine David)",female,45.0,0,1,2691,14.4542,,Cherbourg,41-50
+363,364,Not Survived,Lower,"Asim, Mr. Adola",male,35.0,0,0,SOTON/O.Q. 3101310,7.05,,southampton,31-40
+364,365,Not Survived,Lower,"O'Brien, Mr. Thomas",male,,1,0,370365,15.5,,Queenstown,None
+365,366,Not Survived,Lower,"Adahl, Mr. Mauritz Nils Martin",male,30.0,0,0,C 7076,7.25,,southampton,21-30
+366,367,Survived,Upper,"Warren, Mrs. Frank Manley (Anna Sophia Atkinson)",female,60.0,1,0,110813,75.25,D37,Cherbourg,51-60
+367,368,Survived,Lower,"Moussa, Mrs. (Mantoura Boulos)",female,,0,0,2626,7.2292,,Cherbourg,None
+368,369,Survived,Lower,"Jermyn, Miss. Annie",female,,0,0,14313,7.75,,Queenstown,None
+369,370,Survived,Upper,"Aubart, Mme. Leontine Pauline",female,24.0,0,0,PC 17477,69.3,B35,Cherbourg,21-30
+370,371,Survived,Upper,"Harder, Mr. George Achilles",male,25.0,1,0,11765,55.4417,E50,Cherbourg,21-30
+371,372,Not Survived,Lower,"Wiklund, Mr. Jakob Alfred",male,18.0,1,0,3101267,6.4958,,southampton,11-20
+372,373,Not Survived,Lower,"Beavan, Mr. William Thomas",male,19.0,0,0,323951,8.05,,southampton,11-20
+373,374,Not Survived,Upper,"Ringhini, Mr. Sante",male,22.0,0,0,PC 17760,135.6333,,Cherbourg,21-30
+374,375,Not Survived,Lower,"Palsson, Miss. Stina Viola",female,3.0,3,1,349909,21.075,,southampton,0-10
+375,376,Survived,Upper,"Meyer, Mrs. Edgar Joseph (Leila Saks)",female,,1,0,PC 17604,82.1708,,Cherbourg,None
+376,377,Survived,Lower,"Landergren, Miss. Aurora Adelia",female,22.0,0,0,C 7077,7.25,,southampton,21-30
+377,378,Not Survived,Upper,"Widener, Mr. Harry Elkins",male,27.0,0,2,113503,211.5,C82,Cherbourg,21-30
+378,379,Not Survived,Lower,"Betros, Mr. Tannous",male,20.0,0,0,2648,4.0125,,Cherbourg,11-20
+379,380,Not Survived,Lower,"Gustafsson, Mr. Karl Gideon",male,19.0,0,0,347069,7.775,,southampton,11-20
+380,381,Survived,Upper,"Bidois, Miss. Rosalie",female,42.0,0,0,PC 17757,227.525,,Cherbourg,41-50
+381,382,Survived,Lower,"Nakid, Miss. Maria (""Mary"")",female,1.0,0,2,2653,15.7417,,Cherbourg,0-10
+382,383,Not Survived,Lower,"Tikkanen, Mr. Juho",male,32.0,0,0,STON/O 2. 3101293,7.925,,southampton,31-40
+383,384,Survived,Upper,"Holverson, Mrs. Alexander Oskar (Mary Aline Towner)",female,35.0,1,0,113789,52.0,,southampton,31-40
+384,385,Not Survived,Lower,"Plotcharsky, Mr. Vasil",male,,0,0,349227,7.8958,,southampton,None
+385,386,Not Survived,Middle,"Davies, Mr. Charles Henry",male,18.0,0,0,S.O.C. 14879,73.5,,southampton,11-20
+386,387,Not Survived,Lower,"Goodwin, Master. Sidney Leonard",male,1.0,5,2,CA 2144,46.9,,southampton,0-10
+387,388,Survived,Middle,"Buss, Miss. Kate",female,36.0,0,0,27849,13.0,,southampton,31-40
+388,389,Not Survived,Lower,"Sadlier, Mr. Matthew",male,,0,0,367655,7.7292,,Queenstown,None
+389,390,Survived,Middle,"Lehmann, Miss. Bertha",female,17.0,0,0,SC 1748,12.0,,Cherbourg,11-20
+390,391,Survived,Upper,"Carter, Mr. William Ernest",male,36.0,1,2,113760,120.0,B96 B98,southampton,31-40
+391,392,Survived,Lower,"Jansson, Mr. Carl Olof",male,21.0,0,0,350034,7.7958,,southampton,21-30
+392,393,Not Survived,Lower,"Gustafsson, Mr. Johan Birger",male,28.0,2,0,3101277,7.925,,southampton,21-30
+393,394,Survived,Upper,"Newell, Miss. Marjorie",female,23.0,1,0,35273,113.275,D36,Cherbourg,21-30
+394,395,Survived,Lower,"Sandstrom, Mrs. Hjalmar (Agnes Charlotta Bengtsson)",female,24.0,0,2,PP 9549,16.7,G6,southampton,21-30
+395,396,Not Survived,Lower,"Johansson, Mr. Erik",male,22.0,0,0,350052,7.7958,,southampton,21-30
+396,397,Not Survived,Lower,"Olsson, Miss. Elina",female,31.0,0,0,350407,7.8542,,southampton,31-40
+397,398,Not Survived,Middle,"McKane, Mr. Peter David",male,46.0,0,0,28403,26.0,,southampton,41-50
+398,399,Not Survived,Middle,"Pain, Dr. Alfred",male,23.0,0,0,244278,10.5,,southampton,21-30
+399,400,Survived,Middle,"Trout, Mrs. William H (Jessie L)",female,28.0,0,0,240929,12.65,,southampton,21-30
+400,401,Survived,Lower,"Niskanen, Mr. Juha",male,39.0,0,0,STON/O 2. 3101289,7.925,,southampton,31-40
+401,402,Not Survived,Lower,"Adams, Mr. John",male,26.0,0,0,341826,8.05,,southampton,21-30
+402,403,Not Survived,Lower,"Jussila, Miss. Mari Aina",female,21.0,1,0,4137,9.825,,southampton,21-30
+403,404,Not Survived,Lower,"Hakkarainen, Mr. Pekka Pietari",male,28.0,1,0,STON/O2. 3101279,15.85,,southampton,21-30
+404,405,Not Survived,Lower,"Oreskovic, Miss. Marija",female,20.0,0,0,315096,8.6625,,southampton,11-20
+405,406,Not Survived,Middle,"Gale, Mr. Shadrach",male,34.0,1,0,28664,21.0,,southampton,31-40
+406,407,Not Survived,Lower,"Widegren, Mr. Carl/Charles Peter",male,51.0,0,0,347064,7.75,,southampton,51-60
+407,408,Survived,Middle,"Richards, Master. William Rowe",male,3.0,1,1,29106,18.75,,southampton,0-10
+408,409,Not Survived,Lower,"Birkeland, Mr. Hans Martin Monsen",male,21.0,0,0,312992,7.775,,southampton,21-30
+409,410,Not Survived,Lower,"Lefebre, Miss. Ida",female,,3,1,4133,25.4667,,southampton,None
+410,411,Not Survived,Lower,"Sdycoff, Mr. Todor",male,,0,0,349222,7.8958,,southampton,None
+411,412,Not Survived,Lower,"Hart, Mr. Henry",male,,0,0,394140,6.8583,,Queenstown,None
+412,413,Survived,Upper,"Minahan, Miss. Daisy E",female,33.0,1,0,19928,90.0,C78,Queenstown,31-40
+413,414,Not Survived,Middle,"Cunningham, Mr. Alfred Fleming",male,,0,0,239853,0.0,,southampton,None
+414,415,Survived,Lower,"Sundman, Mr. Johan Julian",male,44.0,0,0,STON/O 2. 3101269,7.925,,southampton,41-50
+415,416,Not Survived,Lower,"Meek, Mrs. Thomas (Annie Louise Rowley)",female,,0,0,343095,8.05,,southampton,None
+416,417,Survived,Middle,"Drew, Mrs. James Vivian (Lulu Thorne Christian)",female,34.0,1,1,28220,32.5,,southampton,31-40
+417,418,Survived,Middle,"Silven, Miss. Lyyli Karoliina",female,18.0,0,2,250652,13.0,,southampton,11-20
+418,419,Not Survived,Middle,"Matthews, Mr. William John",male,30.0,0,0,28228,13.0,,southampton,21-30
+419,420,Not Survived,Lower,"Van Impe, Miss. Catharina",female,10.0,0,2,345773,24.15,,southampton,0-10
+420,421,Not Survived,Lower,"Gheorgheff, Mr. Stanio",male,,0,0,349254,7.8958,,Cherbourg,None
+421,422,Not Survived,Lower,"Charters, Mr. David",male,21.0,0,0,A/5. 13032,7.7333,,Queenstown,21-30
+422,423,Not Survived,Lower,"Zimmerman, Mr. Leo",male,29.0,0,0,315082,7.875,,southampton,21-30
+423,424,Not Survived,Lower,"Danbom, Mrs. Ernst Gilbert (Anna Sigrid Maria Brogren)",female,28.0,1,1,347080,14.4,,southampton,21-30
+424,425,Not Survived,Lower,"Rosblom, Mr. Viktor Richard",male,18.0,1,1,370129,20.2125,,southampton,11-20
+425,426,Not Survived,Lower,"Wiseman, Mr. Phillippe",male,,0,0,A/4. 34244,7.25,,southampton,None
+426,427,Survived,Middle,"Clarke, Mrs. Charles V (Ada Maria Winfield)",female,28.0,1,0,2003,26.0,,southampton,21-30
+427,428,Survived,Middle,"Phillips, Miss. Kate Florence (""Mrs Kate Louise Phillips Marshall"")",female,19.0,0,0,250655,26.0,,southampton,11-20
+428,429,Not Survived,Lower,"Flynn, Mr. James",male,,0,0,364851,7.75,,Queenstown,None
+429,430,Survived,Lower,"Pickard, Mr. Berk (Berk Trembisky)",male,32.0,0,0,SOTON/O.Q. 392078,8.05,E10,southampton,31-40
+430,431,Survived,Upper,"Bjornstrom-Steffansson, Mr. Mauritz Hakan",male,28.0,0,0,110564,26.55,C52,southampton,21-30
+431,432,Survived,Lower,"Thorneycroft, Mrs. Percival (Florence Kate White)",female,,1,0,376564,16.1,,southampton,None
+432,433,Survived,Middle,"Louch, Mrs. Charles Alexander (Alice Adelaide Slow)",female,42.0,1,0,SC/AH 3085,26.0,,southampton,41-50
+433,434,Not Survived,Lower,"Kallio, Mr. Nikolai Erland",male,17.0,0,0,STON/O 2. 3101274,7.125,,southampton,11-20
+434,435,Not Survived,Upper,"Silvey, Mr. William Baird",male,50.0,1,0,13507,55.9,E44,southampton,41-50
+435,436,Survived,Upper,"Carter, Miss. Lucile Polk",female,14.0,1,2,113760,120.0,B96 B98,southampton,11-20
+436,437,Not Survived,Lower,"Ford, Miss. Doolina Margaret ""Daisy""",female,21.0,2,2,W./C. 6608,34.375,,southampton,21-30
+437,438,Survived,Middle,"Richards, Mrs. Sidney (Emily Hocking)",female,24.0,2,3,29106,18.75,,southampton,21-30
+438,439,Not Survived,Upper,"Fortune, Mr. Mark",male,64.0,1,4,19950,263.0,C23 C25 C27,southampton,61-70
+439,440,Not Survived,Middle,"Kvillner, Mr. Johan Henrik Johannesson",male,31.0,0,0,C.A. 18723,10.5,,southampton,31-40
+440,441,Survived,Middle,"Hart, Mrs. Benjamin (Esther Ada Bloomfield)",female,45.0,1,1,F.C.C. 13529,26.25,,southampton,41-50
+441,442,Not Survived,Lower,"Hampe, Mr. Leon",male,20.0,0,0,345769,9.5,,southampton,11-20
+442,443,Not Survived,Lower,"Petterson, Mr. Johan Emil",male,25.0,1,0,347076,7.775,,southampton,21-30
+443,444,Survived,Middle,"Reynaldo, Ms. Encarnacion",female,28.0,0,0,230434,13.0,,southampton,21-30
+444,445,Survived,Lower,"Johannesen-Bratthammer, Mr. Bernt",male,,0,0,65306,8.1125,,southampton,None
+445,446,Survived,Upper,"Dodge, Master. Washington",male,4.0,0,2,33638,81.8583,A34,southampton,0-10
+446,447,Survived,Middle,"Mellinger, Miss. Madeleine Violet",female,13.0,0,1,250644,19.5,,southampton,11-20
+447,448,Survived,Upper,"Seward, Mr. Frederic Kimber",male,34.0,0,0,113794,26.55,,southampton,31-40
+448,449,Survived,Lower,"Baclini, Miss. Marie Catherine",female,5.0,2,1,2666,19.2583,,Cherbourg,0-10
+449,450,Survived,Upper,"Peuchen, Major. Arthur Godfrey",male,52.0,0,0,113786,30.5,C104,southampton,51-60
+450,451,Not Survived,Middle,"West, Mr. Edwy Arthur",male,36.0,1,2,C.A. 34651,27.75,,southampton,31-40
+451,452,Not Survived,Lower,"Hagland, Mr. Ingvald Olai Olsen",male,,1,0,65303,19.9667,,southampton,None
+452,453,Not Survived,Upper,"Foreman, Mr. Benjamin Laventall",male,30.0,0,0,113051,27.75,C111,Cherbourg,21-30
+453,454,Survived,Upper,"Goldenberg, Mr. Samuel L",male,49.0,1,0,17453,89.1042,C92,Cherbourg,41-50
+454,455,Not Survived,Lower,"Peduzzi, Mr. Joseph",male,,0,0,A/5 2817,8.05,,southampton,None
+455,456,Survived,Lower,"Jalsevac, Mr. Ivan",male,29.0,0,0,349240,7.8958,,Cherbourg,21-30
+456,457,Not Survived,Upper,"Millet, Mr. Francis Davis",male,65.0,0,0,13509,26.55,E38,southampton,61-70
+457,458,Survived,Upper,"Kenyon, Mrs. Frederick R (Marion)",female,,1,0,17464,51.8625,D21,southampton,None
+458,459,Survived,Middle,"Toomey, Miss. Ellen",female,50.0,0,0,F.C.C. 13531,10.5,,southampton,41-50
+459,460,Not Survived,Lower,"O'Connor, Mr. Maurice",male,,0,0,371060,7.75,,Queenstown,None
+460,461,Survived,Upper,"Anderson, Mr. Harry",male,48.0,0,0,19952,26.55,E12,southampton,41-50
+461,462,Not Survived,Lower,"Morley, Mr. William",male,34.0,0,0,364506,8.05,,southampton,31-40
+462,463,Not Survived,Upper,"Gee, Mr. Arthur H",male,47.0,0,0,111320,38.5,E63,southampton,41-50
+463,464,Not Survived,Middle,"Milling, Mr. Jacob Christian",male,48.0,0,0,234360,13.0,,southampton,41-50
+464,465,Not Survived,Lower,"Maisner, Mr. Simon",male,,0,0,A/S 2816,8.05,,southampton,None
+465,466,Not Survived,Lower,"Goncalves, Mr. Manuel Estanslas",male,38.0,0,0,SOTON/O.Q. 3101306,7.05,,southampton,31-40
+466,467,Not Survived,Middle,"Campbell, Mr. William",male,,0,0,239853,0.0,,southampton,None
+467,468,Not Survived,Upper,"Smart, Mr. John Montgomery",male,56.0,0,0,113792,26.55,,southampton,51-60
+468,469,Not Survived,Lower,"Scanlan, Mr. James",male,,0,0,36209,7.725,,Queenstown,None
+469,470,Survived,Lower,"Baclini, Miss. Helene Barbara",female,0.75,2,1,2666,19.2583,,Cherbourg,0-10
+470,471,Not Survived,Lower,"Keefe, Mr. Arthur",male,,0,0,323592,7.25,,southampton,None
+471,472,Not Survived,Lower,"Cacic, Mr. Luka",male,38.0,0,0,315089,8.6625,,southampton,31-40
+472,473,Survived,Middle,"West, Mrs. Edwy Arthur (Ada Mary Worth)",female,33.0,1,2,C.A. 34651,27.75,,southampton,31-40
+473,474,Survived,Middle,"Jerwan, Mrs. Amin S (Marie Marthe Thuillard)",female,23.0,0,0,SC/AH Basle 541,13.7917,D,Cherbourg,21-30
+474,475,Not Survived,Lower,"Strandberg, Miss. Ida Sofia",female,22.0,0,0,7553,9.8375,,southampton,21-30
+475,476,Not Survived,Upper,"Clifford, Mr. George Quincy",male,,0,0,110465,52.0,A14,southampton,None
+476,477,Not Survived,Middle,"Renouf, Mr. Peter Henry",male,34.0,1,0,31027,21.0,,southampton,31-40
+477,478,Not Survived,Lower,"Braund, Mr. Lewis Richard",male,29.0,1,0,3460,7.0458,,southampton,21-30
+478,479,Not Survived,Lower,"Karlsson, Mr. Nils August",male,22.0,0,0,350060,7.5208,,southampton,21-30
+479,480,Survived,Lower,"Hirvonen, Miss. Hildur E",female,2.0,0,1,3101298,12.2875,,southampton,0-10
+480,481,Not Survived,Lower,"Goodwin, Master. Harold Victor",male,9.0,5,2,CA 2144,46.9,,southampton,0-10
+481,482,Not Survived,Middle,"Frost, Mr. Anthony Wood ""Archie""",male,,0,0,239854,0.0,,southampton,None
+482,483,Not Survived,Lower,"Rouse, Mr. Richard Henry",male,50.0,0,0,A/5 3594,8.05,,southampton,41-50
+483,484,Survived,Lower,"Turkula, Mrs. (Hedwig)",female,63.0,0,0,4134,9.5875,,southampton,61-70
+484,485,Survived,Upper,"Bishop, Mr. Dickinson H",male,25.0,1,0,11967,91.0792,B49,Cherbourg,21-30
+485,486,Not Survived,Lower,"Lefebre, Miss. Jeannie",female,,3,1,4133,25.4667,,southampton,None
+486,487,Survived,Upper,"Hoyt, Mrs. Frederick Maxfield (Jane Anne Forby)",female,35.0,1,0,19943,90.0,C93,southampton,31-40
+487,488,Not Survived,Upper,"Kent, Mr. Edward Austin",male,58.0,0,0,11771,29.7,B37,Cherbourg,51-60
+488,489,Not Survived,Lower,"Somerton, Mr. Francis William",male,30.0,0,0,A.5. 18509,8.05,,southampton,21-30
+489,490,Survived,Lower,"Coutts, Master. Eden Leslie ""Neville""",male,9.0,1,1,C.A. 37671,15.9,,southampton,0-10
+490,491,Not Survived,Lower,"Hagland, Mr. Konrad Mathias Reiersen",male,,1,0,65304,19.9667,,southampton,None
+491,492,Not Survived,Lower,"Windelov, Mr. Einar",male,21.0,0,0,SOTON/OQ 3101317,7.25,,southampton,21-30
+492,493,Not Survived,Upper,"Molson, Mr. Harry Markland",male,55.0,0,0,113787,30.5,C30,southampton,51-60
+493,494,Not Survived,Upper,"Artagaveytia, Mr. Ramon",male,71.0,0,0,PC 17609,49.5042,,Cherbourg,71-80
+494,495,Not Survived,Lower,"Stanley, Mr. Edward Roland",male,21.0,0,0,A/4 45380,8.05,,southampton,21-30
+495,496,Not Survived,Lower,"Yousseff, Mr. Gerious",male,,0,0,2627,14.4583,,Cherbourg,None
+496,497,Survived,Upper,"Eustis, Miss. Elizabeth Mussey",female,54.0,1,0,36947,78.2667,D20,Cherbourg,51-60
+497,498,Not Survived,Lower,"Shellard, Mr. Frederick William",male,,0,0,C.A. 6212,15.1,,southampton,None
+498,499,Not Survived,Upper,"Allison, Mrs. Hudson J C (Bessie Waldo Daniels)",female,25.0,1,2,113781,151.55,C22 C26,southampton,21-30
+499,500,Not Survived,Lower,"Svensson, Mr. Olof",male,24.0,0,0,350035,7.7958,,southampton,21-30
+500,501,Not Survived,Lower,"Calic, Mr. Petar",male,17.0,0,0,315086,8.6625,,southampton,11-20
+501,502,Not Survived,Lower,"Canavan, Miss. Mary",female,21.0,0,0,364846,7.75,,Queenstown,21-30
+502,503,Not Survived,Lower,"O'Sullivan, Miss. Bridget Mary",female,,0,0,330909,7.6292,,Queenstown,None
+503,504,Not Survived,Lower,"Laitinen, Miss. Kristina Sofia",female,37.0,0,0,4135,9.5875,,southampton,31-40
+504,505,Survived,Upper,"Maioni, Miss. Roberta",female,16.0,0,0,110152,86.5,B79,southampton,11-20
+505,506,Not Survived,Upper,"Penasco y Castellana, Mr. Victor de Satode",male,18.0,1,0,PC 17758,108.9,C65,Cherbourg,11-20
+506,507,Survived,Middle,"Quick, Mrs. Frederick Charles (Jane Richards)",female,33.0,0,2,26360,26.0,,southampton,31-40
+507,508,Survived,Upper,"Bradley, Mr. George (""George Arthur Brayton"")",male,,0,0,111427,26.55,,southampton,None
+508,509,Not Survived,Lower,"Olsen, Mr. Henry Margido",male,28.0,0,0,C 4001,22.525,,southampton,21-30
+509,510,Survived,Lower,"Lang, Mr. Fang",male,26.0,0,0,1601,56.4958,,southampton,21-30
+510,511,Survived,Lower,"Daly, Mr. Eugene Patrick",male,29.0,0,0,382651,7.75,,Queenstown,21-30
+511,512,Not Survived,Lower,"Webber, Mr. James",male,,0,0,SOTON/OQ 3101316,8.05,,southampton,None
+512,513,Survived,Upper,"McGough, Mr. James Robert",male,36.0,0,0,PC 17473,26.2875,E25,southampton,31-40
+513,514,Survived,Upper,"Rothschild, Mrs. Martin (Elizabeth L. Barrett)",female,54.0,1,0,PC 17603,59.4,,Cherbourg,51-60
+514,515,Not Survived,Lower,"Coleff, Mr. Satio",male,24.0,0,0,349209,7.4958,,southampton,21-30
+515,516,Not Survived,Upper,"Walker, Mr. William Anderson",male,47.0,0,0,36967,34.0208,D46,southampton,41-50
+516,517,Survived,Middle,"Lemore, Mrs. (Amelia Milley)",female,34.0,0,0,C.A. 34260,10.5,F33,southampton,31-40
+517,518,Not Survived,Lower,"Ryan, Mr. Patrick",male,,0,0,371110,24.15,,Queenstown,None
+518,519,Survived,Middle,"Angle, Mrs. William A (Florence ""Mary"" Agnes Hughes)",female,36.0,1,0,226875,26.0,,southampton,31-40
+519,520,Not Survived,Lower,"Pavlovic, Mr. Stefo",male,32.0,0,0,349242,7.8958,,southampton,31-40
+520,521,Survived,Upper,"Perreault, Miss. Anne",female,30.0,0,0,12749,93.5,B73,southampton,21-30
+521,522,Not Survived,Lower,"Vovk, Mr. Janko",male,22.0,0,0,349252,7.8958,,southampton,21-30
+522,523,Not Survived,Lower,"Lahoud, Mr. Sarkis",male,,0,0,2624,7.225,,Cherbourg,None
+523,524,Survived,Upper,"Hippach, Mrs. Louis Albert (Ida Sophia Fischer)",female,44.0,0,1,111361,57.9792,B18,Cherbourg,41-50
+524,525,Not Survived,Lower,"Kassem, Mr. Fared",male,,0,0,2700,7.2292,,Cherbourg,None
+525,526,Not Survived,Lower,"Farrell, Mr. James",male,40.5,0,0,367232,7.75,,Queenstown,41-50
+526,527,Survived,Middle,"Ridsdale, Miss. Lucy",female,50.0,0,0,W./C. 14258,10.5,,southampton,41-50
+527,528,Not Survived,Upper,"Farthing, Mr. John",male,,0,0,PC 17483,221.7792,C95,southampton,None
+528,529,Not Survived,Lower,"Salonen, Mr. Johan Werner",male,39.0,0,0,3101296,7.925,,southampton,31-40
+529,530,Not Survived,Middle,"Hocking, Mr. Richard George",male,23.0,2,1,29104,11.5,,southampton,21-30
+530,531,Survived,Middle,"Quick, Miss. Phyllis May",female,2.0,1,1,26360,26.0,,southampton,0-10
+531,532,Not Survived,Lower,"Toufik, Mr. Nakli",male,,0,0,2641,7.2292,,Cherbourg,None
+532,533,Not Survived,Lower,"Elias, Mr. Joseph Jr",male,17.0,1,1,2690,7.2292,,Cherbourg,11-20
+533,534,Survived,Lower,"Peter, Mrs. Catherine (Catherine Rizk)",female,,0,2,2668,22.3583,,Cherbourg,None
+534,535,Not Survived,Lower,"Cacic, Miss. Marija",female,30.0,0,0,315084,8.6625,,southampton,21-30
+535,536,Survived,Middle,"Hart, Miss. Eva Miriam",female,7.0,0,2,F.C.C. 13529,26.25,,southampton,0-10
+536,537,Not Survived,Upper,"Butt, Major. Archibald Willingham",male,45.0,0,0,113050,26.55,B38,southampton,41-50
+537,538,Survived,Upper,"LeRoy, Miss. Bertha",female,30.0,0,0,PC 17761,106.425,,Cherbourg,21-30
+538,539,Not Survived,Lower,"Risien, Mr. Samuel Beard",male,,0,0,364498,14.5,,southampton,None
+539,540,Survived,Upper,"Frolicher, Miss. Hedwig Margaritha",female,22.0,0,2,13568,49.5,B39,Cherbourg,21-30
+540,541,Survived,Upper,"Crosby, Miss. Harriet R",female,36.0,0,2,WE/P 5735,71.0,B22,southampton,31-40
+541,542,Not Survived,Lower,"Andersson, Miss. Ingeborg Constanzia",female,9.0,4,2,347082,31.275,,southampton,0-10
+542,543,Not Survived,Lower,"Andersson, Miss. Sigrid Elisabeth",female,11.0,4,2,347082,31.275,,southampton,11-20
+543,544,Survived,Middle,"Beane, Mr. Edward",male,32.0,1,0,2908,26.0,,southampton,31-40
+544,545,Not Survived,Upper,"Douglas, Mr. Walter Donald",male,50.0,1,0,PC 17761,106.425,C86,Cherbourg,41-50
+545,546,Not Survived,Upper,"Nicholson, Mr. Arthur Ernest",male,64.0,0,0,693,26.0,,southampton,61-70
+546,547,Survived,Middle,"Beane, Mrs. Edward (Ethel Clarke)",female,19.0,1,0,2908,26.0,,southampton,11-20
+547,548,Survived,Middle,"Padro y Manent, Mr. Julian",male,,0,0,SC/PARIS 2146,13.8625,,Cherbourg,None
+548,549,Not Survived,Lower,"Goldsmith, Mr. Frank John",male,33.0,1,1,363291,20.525,,southampton,31-40
+549,550,Survived,Middle,"Davies, Master. John Morgan Jr",male,8.0,1,1,C.A. 33112,36.75,,southampton,0-10
+550,551,Survived,Upper,"Thayer, Mr. John Borland Jr",male,17.0,0,2,17421,110.8833,C70,Cherbourg,11-20
+551,552,Not Survived,Middle,"Sharp, Mr. Percival James R",male,27.0,0,0,244358,26.0,,southampton,21-30
+552,553,Not Survived,Lower,"O'Brien, Mr. Timothy",male,,0,0,330979,7.8292,,Queenstown,None
+553,554,Survived,Lower,"Leeni, Mr. Fahim (""Philip Zenni"")",male,22.0,0,0,2620,7.225,,Cherbourg,21-30
+554,555,Survived,Lower,"Ohman, Miss. Velin",female,22.0,0,0,347085,7.775,,southampton,21-30
+555,556,Not Survived,Upper,"Wright, Mr. George",male,62.0,0,0,113807,26.55,,southampton,61-70
+556,557,Survived,Upper,"Duff Gordon, Lady. (Lucille Christiana Sutherland) (""Mrs Morgan"")",female,48.0,1,0,11755,39.6,A16,Cherbourg,41-50
+557,558,Not Survived,Upper,"Robbins, Mr. Victor",male,,0,0,PC 17757,227.525,,Cherbourg,None
+558,559,Survived,Upper,"Taussig, Mrs. Emil (Tillie Mandelbaum)",female,39.0,1,1,110413,79.65,E67,southampton,31-40
+559,560,Survived,Lower,"de Messemaeker, Mrs. Guillaume Joseph (Emma)",female,36.0,1,0,345572,17.4,,southampton,31-40
+560,561,Not Survived,Lower,"Morrow, Mr. Thomas Rowan",male,,0,0,372622,7.75,,Queenstown,None
+561,562,Not Survived,Lower,"Sivic, Mr. Husein",male,40.0,0,0,349251,7.8958,,southampton,31-40
+562,563,Not Survived,Middle,"Norman, Mr. Robert Douglas",male,28.0,0,0,218629,13.5,,southampton,21-30
+563,564,Not Survived,Lower,"Simmons, Mr. John",male,,0,0,SOTON/OQ 392082,8.05,,southampton,None
+564,565,Not Survived,Lower,"Meanwell, Miss. (Marion Ogden)",female,,0,0,SOTON/O.Q. 392087,8.05,,southampton,None
+565,566,Not Survived,Lower,"Davies, Mr. Alfred J",male,24.0,2,0,A/4 48871,24.15,,southampton,21-30
+566,567,Not Survived,Lower,"Stoytcheff, Mr. Ilia",male,19.0,0,0,349205,7.8958,,southampton,11-20
+567,568,Not Survived,Lower,"Palsson, Mrs. Nils (Alma Cornelia Berglund)",female,29.0,0,4,349909,21.075,,southampton,21-30
+568,569,Not Survived,Lower,"Doharr, Mr. Tannous",male,,0,0,2686,7.2292,,Cherbourg,None
+569,570,Survived,Lower,"Jonsson, Mr. Carl",male,32.0,0,0,350417,7.8542,,southampton,31-40
+570,571,Survived,Middle,"Harris, Mr. George",male,62.0,0,0,S.W./PP 752,10.5,,southampton,61-70
+571,572,Survived,Upper,"Appleton, Mrs. Edward Dale (Charlotte Lamson)",female,53.0,2,0,11769,51.4792,C101,southampton,51-60
+572,573,Survived,Upper,"Flynn, Mr. John Irwin (""Irving"")",male,36.0,0,0,PC 17474,26.3875,E25,southampton,31-40
+573,574,Survived,Lower,"Kelly, Miss. Mary",female,,0,0,14312,7.75,,Queenstown,None
+574,575,Not Survived,Lower,"Rush, Mr. Alfred George John",male,16.0,0,0,A/4. 20589,8.05,,southampton,11-20
+575,576,Not Survived,Lower,"Patchett, Mr. George",male,19.0,0,0,358585,14.5,,southampton,11-20
+576,577,Survived,Middle,"Garside, Miss. Ethel",female,34.0,0,0,243880,13.0,,southampton,31-40
+577,578,Survived,Upper,"Silvey, Mrs. William Baird (Alice Munger)",female,39.0,1,0,13507,55.9,E44,southampton,31-40
+578,579,Not Survived,Lower,"Caram, Mrs. Joseph (Maria Elias)",female,,1,0,2689,14.4583,,Cherbourg,None
+579,580,Survived,Lower,"Jussila, Mr. Eiriik",male,32.0,0,0,STON/O 2. 3101286,7.925,,southampton,31-40
+580,581,Survived,Middle,"Christy, Miss. Julie Rachel",female,25.0,1,1,237789,30.0,,southampton,21-30
+581,582,Survived,Upper,"Thayer, Mrs. John Borland (Marian Longstreth Morris)",female,39.0,1,1,17421,110.8833,C68,Cherbourg,31-40
+582,583,Not Survived,Middle,"Downton, Mr. William James",male,54.0,0,0,28403,26.0,,southampton,51-60
+583,584,Not Survived,Upper,"Ross, Mr. John Hugo",male,36.0,0,0,13049,40.125,A10,Cherbourg,31-40
+584,585,Not Survived,Lower,"Paulner, Mr. Uscher",male,,0,0,3411,8.7125,,Cherbourg,None
+585,586,Survived,Upper,"Taussig, Miss. Ruth",female,18.0,0,2,110413,79.65,E68,southampton,11-20
+586,587,Not Survived,Middle,"Jarvis, Mr. John Denzil",male,47.0,0,0,237565,15.0,,southampton,41-50
+587,588,Survived,Upper,"Frolicher-Stehli, Mr. Maxmillian",male,60.0,1,1,13567,79.2,B41,Cherbourg,51-60
+588,589,Not Survived,Lower,"Gilinski, Mr. Eliezer",male,22.0,0,0,14973,8.05,,southampton,21-30
+589,590,Not Survived,Lower,"Murdlin, Mr. Joseph",male,,0,0,A./5. 3235,8.05,,southampton,None
+590,591,Not Survived,Lower,"Rintamaki, Mr. Matti",male,35.0,0,0,STON/O 2. 3101273,7.125,,southampton,31-40
+591,592,Survived,Upper,"Stephenson, Mrs. Walter Bertram (Martha Eustis)",female,52.0,1,0,36947,78.2667,D20,Cherbourg,51-60
+592,593,Not Survived,Lower,"Elsbury, Mr. William James",male,47.0,0,0,A/5 3902,7.25,,southampton,41-50
+593,594,Not Survived,Lower,"Bourke, Miss. Mary",female,,0,2,364848,7.75,,Queenstown,None
+594,595,Not Survived,Middle,"Chapman, Mr. John Henry",male,37.0,1,0,SC/AH 29037,26.0,,southampton,31-40
+595,596,Not Survived,Lower,"Van Impe, Mr. Jean Baptiste",male,36.0,1,1,345773,24.15,,southampton,31-40
+596,597,Survived,Middle,"Leitch, Miss. Jessie Wills",female,,0,0,248727,33.0,,southampton,None
+597,598,Not Survived,Lower,"Johnson, Mr. Alfred",male,49.0,0,0,LINE,0.0,,southampton,41-50
+598,599,Not Survived,Lower,"Boulos, Mr. Hanna",male,,0,0,2664,7.225,,Cherbourg,None
+599,600,Survived,Upper,"Duff Gordon, Sir. Cosmo Edmund (""Mr Morgan"")",male,49.0,1,0,PC 17485,56.9292,A20,Cherbourg,41-50
+600,601,Survived,Middle,"Jacobsohn, Mrs. Sidney Samuel (Amy Frances Christy)",female,24.0,2,1,243847,27.0,,southampton,21-30
+601,602,Not Survived,Lower,"Slabenoff, Mr. Petco",male,,0,0,349214,7.8958,,southampton,None
+602,603,Not Survived,Upper,"Harrington, Mr. Charles H",male,,0,0,113796,42.4,,southampton,None
+603,604,Not Survived,Lower,"Torber, Mr. Ernst William",male,44.0,0,0,364511,8.05,,southampton,41-50
+604,605,Survived,Upper,"Homer, Mr. Harry (""Mr E Haven"")",male,35.0,0,0,111426,26.55,,Cherbourg,31-40
+605,606,Not Survived,Lower,"Lindell, Mr. Edvard Bengtsson",male,36.0,1,0,349910,15.55,,southampton,31-40
+606,607,Not Survived,Lower,"Karaic, Mr. Milan",male,30.0,0,0,349246,7.8958,,southampton,21-30
+607,608,Survived,Upper,"Daniel, Mr. Robert Williams",male,27.0,0,0,113804,30.5,,southampton,21-30
+608,609,Survived,Middle,"Laroche, Mrs. Joseph (Juliette Marie Louise Lafargue)",female,22.0,1,2,SC/Paris 2123,41.5792,,Cherbourg,21-30
+609,610,Survived,Upper,"Shutes, Miss. Elizabeth W",female,40.0,0,0,PC 17582,153.4625,C125,southampton,31-40
+610,611,Not Survived,Lower,"Andersson, Mrs. Anders Johan (Alfrida Konstantia Brogren)",female,39.0,1,5,347082,31.275,,southampton,31-40
+611,612,Not Survived,Lower,"Jardin, Mr. Jose Neto",male,,0,0,SOTON/O.Q. 3101305,7.05,,southampton,None
+612,613,Survived,Lower,"Murphy, Miss. Margaret Jane",female,,1,0,367230,15.5,,Queenstown,None
+613,614,Not Survived,Lower,"Horgan, Mr. John",male,,0,0,370377,7.75,,Queenstown,None
+614,615,Not Survived,Lower,"Brocklebank, Mr. William Alfred",male,35.0,0,0,364512,8.05,,southampton,31-40
+615,616,Survived,Middle,"Herman, Miss. Alice",female,24.0,1,2,220845,65.0,,southampton,21-30
+616,617,Not Survived,Lower,"Danbom, Mr. Ernst Gilbert",male,34.0,1,1,347080,14.4,,southampton,31-40
+617,618,Not Survived,Lower,"Lobb, Mrs. William Arthur (Cordelia K Stanlick)",female,26.0,1,0,A/5. 3336,16.1,,southampton,21-30
+618,619,Survived,Middle,"Becker, Miss. Marion Louise",female,4.0,2,1,230136,39.0,F4,southampton,0-10
+619,620,Not Survived,Middle,"Gavey, Mr. Lawrence",male,26.0,0,0,31028,10.5,,southampton,21-30
+620,621,Not Survived,Lower,"Yasbeck, Mr. Antoni",male,27.0,1,0,2659,14.4542,,Cherbourg,21-30
+621,622,Survived,Upper,"Kimball, Mr. Edwin Nelson Jr",male,42.0,1,0,11753,52.5542,D19,southampton,41-50
+622,623,Survived,Lower,"Nakid, Mr. Sahid",male,20.0,1,1,2653,15.7417,,Cherbourg,11-20
+623,624,Not Survived,Lower,"Hansen, Mr. Henry Damsgaard",male,21.0,0,0,350029,7.8542,,southampton,21-30
+624,625,Not Survived,Lower,"Bowen, Mr. David John ""Dai""",male,21.0,0,0,54636,16.1,,southampton,21-30
+625,626,Not Survived,Upper,"Sutton, Mr. Frederick",male,61.0,0,0,36963,32.3208,D50,southampton,61-70
+626,627,Not Survived,Middle,"Kirkland, Rev. Charles Leonard",male,57.0,0,0,219533,12.35,,Queenstown,51-60
+627,628,Survived,Upper,"Longley, Miss. Gretchen Fiske",female,21.0,0,0,13502,77.9583,D9,southampton,21-30
+628,629,Not Survived,Lower,"Bostandyeff, Mr. Guentcho",male,26.0,0,0,349224,7.8958,,southampton,21-30
+629,630,Not Survived,Lower,"O'Connell, Mr. Patrick D",male,,0,0,334912,7.7333,,Queenstown,None
+630,631,Survived,Upper,"Barkworth, Mr. Algernon Henry Wilson",male,80.0,0,0,27042,30.0,A23,southampton,71-80
+631,632,Not Survived,Lower,"Lundahl, Mr. Johan Svensson",male,51.0,0,0,347743,7.0542,,southampton,51-60
+632,633,Survived,Upper,"Stahelin-Maeglin, Dr. Max",male,32.0,0,0,13214,30.5,B50,Cherbourg,31-40
+633,634,Not Survived,Upper,"Parr, Mr. William Henry Marsh",male,,0,0,112052,0.0,,southampton,None
+634,635,Not Survived,Lower,"Skoog, Miss. Mabel",female,9.0,3,2,347088,27.9,,southampton,0-10
+635,636,Survived,Middle,"Davis, Miss. Mary",female,28.0,0,0,237668,13.0,,southampton,21-30
+636,637,Not Survived,Lower,"Leinonen, Mr. Antti Gustaf",male,32.0,0,0,STON/O 2. 3101292,7.925,,southampton,31-40
+637,638,Not Survived,Middle,"Collyer, Mr. Harvey",male,31.0,1,1,C.A. 31921,26.25,,southampton,31-40
+638,639,Not Survived,Lower,"Panula, Mrs. Juha (Maria Emilia Ojala)",female,41.0,0,5,3101295,39.6875,,southampton,41-50
+639,640,Not Survived,Lower,"Thorneycroft, Mr. Percival",male,,1,0,376564,16.1,,southampton,None
+640,641,Not Survived,Lower,"Jensen, Mr. Hans Peder",male,20.0,0,0,350050,7.8542,,southampton,11-20
+641,642,Survived,Upper,"Sagesser, Mlle. Emma",female,24.0,0,0,PC 17477,69.3,B35,Cherbourg,21-30
+642,643,Not Survived,Lower,"Skoog, Miss. Margit Elizabeth",female,2.0,3,2,347088,27.9,,southampton,0-10
+643,644,Survived,Lower,"Foo, Mr. Choong",male,,0,0,1601,56.4958,,southampton,None
+644,645,Survived,Lower,"Baclini, Miss. Eugenie",female,0.75,2,1,2666,19.2583,,Cherbourg,0-10
+645,646,Survived,Upper,"Harper, Mr. Henry Sleeper",male,48.0,1,0,PC 17572,76.7292,D33,Cherbourg,41-50
+646,647,Not Survived,Lower,"Cor, Mr. Liudevit",male,19.0,0,0,349231,7.8958,,southampton,11-20
+647,648,Survived,Upper,"Simonius-Blumer, Col. Oberst Alfons",male,56.0,0,0,13213,35.5,A26,Cherbourg,51-60
+648,649,Not Survived,Lower,"Willey, Mr. Edward",male,,0,0,S.O./P.P. 751,7.55,,southampton,None
+649,650,Survived,Lower,"Stanley, Miss. Amy Zillah Elsie",female,23.0,0,0,CA. 2314,7.55,,southampton,21-30
+650,651,Not Survived,Lower,"Mitkoff, Mr. Mito",male,,0,0,349221,7.8958,,southampton,None
+651,652,Survived,Middle,"Doling, Miss. Elsie",female,18.0,0,1,231919,23.0,,southampton,11-20
+652,653,Not Survived,Lower,"Kalvik, Mr. Johannes Halvorsen",male,21.0,0,0,8475,8.4333,,southampton,21-30
+653,654,Survived,Lower,"O'Leary, Miss. Hanora ""Norah""",female,,0,0,330919,7.8292,,Queenstown,None
+654,655,Not Survived,Lower,"Hegarty, Miss. Hanora ""Nora""",female,18.0,0,0,365226,6.75,,Queenstown,11-20
+655,656,Not Survived,Middle,"Hickman, Mr. Leonard Mark",male,24.0,2,0,S.O.C. 14879,73.5,,southampton,21-30
+656,657,Not Survived,Lower,"Radeff, Mr. Alexander",male,,0,0,349223,7.8958,,southampton,None
+657,658,Not Survived,Lower,"Bourke, Mrs. John (Catherine)",female,32.0,1,1,364849,15.5,,Queenstown,31-40
+658,659,Not Survived,Middle,"Eitemiller, Mr. George Floyd",male,23.0,0,0,29751,13.0,,southampton,21-30
+659,660,Not Survived,Upper,"Newell, Mr. Arthur Webster",male,58.0,0,2,35273,113.275,D48,Cherbourg,51-60
+660,661,Survived,Upper,"Frauenthal, Dr. Henry William",male,50.0,2,0,PC 17611,133.65,,southampton,41-50
+661,662,Not Survived,Lower,"Badt, Mr. Mohamed",male,40.0,0,0,2623,7.225,,Cherbourg,31-40
+662,663,Not Survived,Upper,"Colley, Mr. Edward Pomeroy",male,47.0,0,0,5727,25.5875,E58,southampton,41-50
+663,664,Not Survived,Lower,"Coleff, Mr. Peju",male,36.0,0,0,349210,7.4958,,southampton,31-40
+664,665,Survived,Lower,"Lindqvist, Mr. Eino William",male,20.0,1,0,STON/O 2. 3101285,7.925,,southampton,11-20
+665,666,Not Survived,Middle,"Hickman, Mr. Lewis",male,32.0,2,0,S.O.C. 14879,73.5,,southampton,31-40
+666,667,Not Survived,Middle,"Butler, Mr. Reginald Fenton",male,25.0,0,0,234686,13.0,,southampton,21-30
+667,668,Not Survived,Lower,"Rommetvedt, Mr. Knud Paust",male,,0,0,312993,7.775,,southampton,None
+668,669,Not Survived,Lower,"Cook, Mr. Jacob",male,43.0,0,0,A/5 3536,8.05,,southampton,41-50
+669,670,Survived,Upper,"Taylor, Mrs. Elmer Zebley (Juliet Cummins Wright)",female,,1,0,19996,52.0,C126,southampton,None
+670,671,Survived,Middle,"Brown, Mrs. Thomas William Solomon (Elizabeth Catherine Ford)",female,40.0,1,1,29750,39.0,,southampton,31-40
+671,672,Not Survived,Upper,"Davidson, Mr. Thornton",male,31.0,1,0,F.C. 12750,52.0,B71,southampton,31-40
+672,673,Not Survived,Middle,"Mitchell, Mr. Henry Michael",male,70.0,0,0,C.A. 24580,10.5,,southampton,61-70
+673,674,Survived,Middle,"Wilhelms, Mr. Charles",male,31.0,0,0,244270,13.0,,southampton,31-40
+674,675,Not Survived,Middle,"Watson, Mr. Ennis Hastings",male,,0,0,239856,0.0,,southampton,None
+675,676,Not Survived,Lower,"Edvardsson, Mr. Gustaf Hjalmar",male,18.0,0,0,349912,7.775,,southampton,11-20
+676,677,Not Survived,Lower,"Sawyer, Mr. Frederick Charles",male,24.5,0,0,342826,8.05,,southampton,21-30
+677,678,Survived,Lower,"Turja, Miss. Anna Sofia",female,18.0,0,0,4138,9.8417,,southampton,11-20
+678,679,Not Survived,Lower,"Goodwin, Mrs. Frederick (Augusta Tyler)",female,43.0,1,6,CA 2144,46.9,,southampton,41-50
+679,680,Survived,Upper,"Cardeza, Mr. Thomas Drake Martinez",male,36.0,0,1,PC 17755,512.3292,B51 B53 B55,Cherbourg,31-40
+680,681,Not Survived,Lower,"Peters, Miss. Katie",female,,0,0,330935,8.1375,,Queenstown,None
+681,682,Survived,Upper,"Hassab, Mr. Hammad",male,27.0,0,0,PC 17572,76.7292,D49,Cherbourg,21-30
+682,683,Not Survived,Lower,"Olsvigen, Mr. Thor Anderson",male,20.0,0,0,6563,9.225,,southampton,11-20
+683,684,Not Survived,Lower,"Goodwin, Mr. Charles Edward",male,14.0,5,2,CA 2144,46.9,,southampton,11-20
+684,685,Not Survived,Middle,"Brown, Mr. Thomas William Solomon",male,60.0,1,1,29750,39.0,,southampton,51-60
+685,686,Not Survived,Middle,"Laroche, Mr. Joseph Philippe Lemercier",male,25.0,1,2,SC/Paris 2123,41.5792,,Cherbourg,21-30
+686,687,Not Survived,Lower,"Panula, Mr. Jaako Arnold",male,14.0,4,1,3101295,39.6875,,southampton,11-20
+687,688,Not Survived,Lower,"Dakic, Mr. Branko",male,19.0,0,0,349228,10.1708,,southampton,11-20
+688,689,Not Survived,Lower,"Fischer, Mr. Eberhard Thelander",male,18.0,0,0,350036,7.7958,,southampton,11-20
+689,690,Survived,Upper,"Madill, Miss. Georgette Alexandra",female,15.0,0,1,24160,211.3375,B5,southampton,11-20
+690,691,Survived,Upper,"Dick, Mr. Albert Adrian",male,31.0,1,0,17474,57.0,B20,southampton,31-40
+691,692,Survived,Lower,"Karun, Miss. Manca",female,4.0,0,1,349256,13.4167,,Cherbourg,0-10
+692,693,Survived,Lower,"Lam, Mr. Ali",male,,0,0,1601,56.4958,,southampton,None
+693,694,Not Survived,Lower,"Saad, Mr. Khalil",male,25.0,0,0,2672,7.225,,Cherbourg,21-30
+694,695,Not Survived,Upper,"Weir, Col. John",male,60.0,0,0,113800,26.55,,southampton,51-60
+695,696,Not Survived,Middle,"Chapman, Mr. Charles Henry",male,52.0,0,0,248731,13.5,,southampton,51-60
+696,697,Not Survived,Lower,"Kelly, Mr. James",male,44.0,0,0,363592,8.05,,southampton,41-50
+697,698,Survived,Lower,"Mullens, Miss. Katherine ""Katie""",female,,0,0,35852,7.7333,,Queenstown,None
+698,699,Not Survived,Upper,"Thayer, Mr. John Borland",male,49.0,1,1,17421,110.8833,C68,Cherbourg,41-50
+699,700,Not Survived,Lower,"Humblen, Mr. Adolf Mathias Nicolai Olsen",male,42.0,0,0,348121,7.65,F G63,southampton,41-50
+700,701,Survived,Upper,"Astor, Mrs. John Jacob (Madeleine Talmadge Force)",female,18.0,1,0,PC 17757,227.525,C62 C64,Cherbourg,11-20
+701,702,Survived,Upper,"Silverthorne, Mr. Spencer Victor",male,35.0,0,0,PC 17475,26.2875,E24,southampton,31-40
+702,703,Not Survived,Lower,"Barbara, Miss. Saiide",female,18.0,0,1,2691,14.4542,,Cherbourg,11-20
+703,704,Not Survived,Lower,"Gallagher, Mr. Martin",male,25.0,0,0,36864,7.7417,,Queenstown,21-30
+704,705,Not Survived,Lower,"Hansen, Mr. Henrik Juul",male,26.0,1,0,350025,7.8542,,southampton,21-30
+705,706,Not Survived,Middle,"Morley, Mr. Henry Samuel (""Mr Henry Marshall"")",male,39.0,0,0,250655,26.0,,southampton,31-40
+706,707,Survived,Middle,"Kelly, Mrs. Florence ""Fannie""",female,45.0,0,0,223596,13.5,,southampton,41-50
+707,708,Survived,Upper,"Calderhead, Mr. Edward Pennington",male,42.0,0,0,PC 17476,26.2875,E24,southampton,41-50
+708,709,Survived,Upper,"Cleaver, Miss. Alice",female,22.0,0,0,113781,151.55,,southampton,21-30
+709,710,Survived,Lower,"Moubarek, Master. Halim Gonios (""William George"")",male,,1,1,2661,15.2458,,Cherbourg,None
+710,711,Survived,Upper,"Mayne, Mlle. Berthe Antonine (""Mrs de Villiers"")",female,24.0,0,0,PC 17482,49.5042,C90,Cherbourg,21-30
+711,712,Not Survived,Upper,"Klaber, Mr. Herman",male,,0,0,113028,26.55,C124,southampton,None
+712,713,Survived,Upper,"Taylor, Mr. Elmer Zebley",male,48.0,1,0,19996,52.0,C126,southampton,41-50
+713,714,Not Survived,Lower,"Larsson, Mr. August Viktor",male,29.0,0,0,7545,9.4833,,southampton,21-30
+714,715,Not Survived,Middle,"Greenberg, Mr. Samuel",male,52.0,0,0,250647,13.0,,southampton,51-60
+715,716,Not Survived,Lower,"Soholt, Mr. Peter Andreas Lauritz Andersen",male,19.0,0,0,348124,7.65,F G73,southampton,11-20
+716,717,Survived,Upper,"Endres, Miss. Caroline Louise",female,38.0,0,0,PC 17757,227.525,C45,Cherbourg,31-40
+717,718,Survived,Middle,"Troutt, Miss. Edwina Celia ""Winnie""",female,27.0,0,0,34218,10.5,E101,southampton,21-30
+718,719,Not Survived,Lower,"McEvoy, Mr. Michael",male,,0,0,36568,15.5,,Queenstown,None
+719,720,Not Survived,Lower,"Johnson, Mr. Malkolm Joackim",male,33.0,0,0,347062,7.775,,southampton,31-40
+720,721,Survived,Middle,"Harper, Miss. Annie Jessie ""Nina""",female,6.0,0,1,248727,33.0,,southampton,0-10
+721,722,Not Survived,Lower,"Jensen, Mr. Svend Lauritz",male,17.0,1,0,350048,7.0542,,southampton,11-20
+722,723,Not Survived,Middle,"Gillespie, Mr. William Henry",male,34.0,0,0,12233,13.0,,southampton,31-40
+723,724,Not Survived,Middle,"Hodges, Mr. Henry Price",male,50.0,0,0,250643,13.0,,southampton,41-50
+724,725,Survived,Upper,"Chambers, Mr. Norman Campbell",male,27.0,1,0,113806,53.1,E8,southampton,21-30
+725,726,Not Survived,Lower,"Oreskovic, Mr. Luka",male,20.0,0,0,315094,8.6625,,southampton,11-20
+726,727,Survived,Middle,"Renouf, Mrs. Peter Henry (Lillian Jefferys)",female,30.0,3,0,31027,21.0,,southampton,21-30
+727,728,Survived,Lower,"Mannion, Miss. Margareth",female,,0,0,36866,7.7375,,Queenstown,None
+728,729,Not Survived,Middle,"Bryhl, Mr. Kurt Arnold Gottfrid",male,25.0,1,0,236853,26.0,,southampton,21-30
+729,730,Not Survived,Lower,"Ilmakangas, Miss. Pieta Sofia",female,25.0,1,0,STON/O2. 3101271,7.925,,southampton,21-30
+730,731,Survived,Upper,"Allen, Miss. Elisabeth Walton",female,29.0,0,0,24160,211.3375,B5,southampton,21-30
+731,732,Not Survived,Lower,"Hassan, Mr. Houssein G N",male,11.0,0,0,2699,18.7875,,Cherbourg,11-20
+732,733,Not Survived,Middle,"Knight, Mr. Robert J",male,,0,0,239855,0.0,,southampton,None
+733,734,Not Survived,Middle,"Berriman, Mr. William John",male,23.0,0,0,28425,13.0,,southampton,21-30
+734,735,Not Survived,Middle,"Troupiansky, Mr. Moses Aaron",male,23.0,0,0,233639,13.0,,southampton,21-30
+735,736,Not Survived,Lower,"Williams, Mr. Leslie",male,28.5,0,0,54636,16.1,,southampton,21-30
+736,737,Not Survived,Lower,"Ford, Mrs. Edward (Margaret Ann Watson)",female,48.0,1,3,W./C. 6608,34.375,,southampton,41-50
+737,738,Survived,Upper,"Lesurer, Mr. Gustave J",male,35.0,0,0,PC 17755,512.3292,B101,Cherbourg,31-40
+738,739,Not Survived,Lower,"Ivanoff, Mr. Kanio",male,,0,0,349201,7.8958,,southampton,None
+739,740,Not Survived,Lower,"Nankoff, Mr. Minko",male,,0,0,349218,7.8958,,southampton,None
+740,741,Survived,Upper,"Hawksford, Mr. Walter James",male,,0,0,16988,30.0,D45,southampton,None
+741,742,Not Survived,Upper,"Cavendish, Mr. Tyrell William",male,36.0,1,0,19877,78.85,C46,southampton,31-40
+742,743,Survived,Upper,"Ryerson, Miss. Susan Parker ""Suzette""",female,21.0,2,2,PC 17608,262.375,B57 B59 B63 B66,Cherbourg,21-30
+743,744,Not Survived,Lower,"McNamee, Mr. Neal",male,24.0,1,0,376566,16.1,,southampton,21-30
+744,745,Survived,Lower,"Stranden, Mr. Juho",male,31.0,0,0,STON/O 2. 3101288,7.925,,southampton,31-40
+745,746,Not Survived,Upper,"Crosby, Capt. Edward Gifford",male,70.0,1,1,WE/P 5735,71.0,B22,southampton,61-70
+746,747,Not Survived,Lower,"Abbott, Mr. Rossmore Edward",male,16.0,1,1,C.A. 2673,20.25,,southampton,11-20
+747,748,Survived,Middle,"Sinkkonen, Miss. Anna",female,30.0,0,0,250648,13.0,,southampton,21-30
+748,749,Not Survived,Upper,"Marvin, Mr. Daniel Warner",male,19.0,1,0,113773,53.1,D30,southampton,11-20
+749,750,Not Survived,Lower,"Connaghton, Mr. Michael",male,31.0,0,0,335097,7.75,,Queenstown,31-40
+750,751,Survived,Middle,"Wells, Miss. Joan",female,4.0,1,1,29103,23.0,,southampton,0-10
+751,752,Survived,Lower,"Moor, Master. Meier",male,6.0,0,1,392096,12.475,E121,southampton,0-10
+752,753,Not Survived,Lower,"Vande Velde, Mr. Johannes Joseph",male,33.0,0,0,345780,9.5,,southampton,31-40
+753,754,Not Survived,Lower,"Jonkoff, Mr. Lalio",male,23.0,0,0,349204,7.8958,,southampton,21-30
+754,755,Survived,Middle,"Herman, Mrs. Samuel (Jane Laver)",female,48.0,1,2,220845,65.0,,southampton,41-50
+755,756,Survived,Middle,"Hamalainen, Master. Viljo",male,0.67,1,1,250649,14.5,,southampton,0-10
+756,757,Not Survived,Lower,"Carlsson, Mr. August Sigfrid",male,28.0,0,0,350042,7.7958,,southampton,21-30
+757,758,Not Survived,Middle,"Bailey, Mr. Percy Andrew",male,18.0,0,0,29108,11.5,,southampton,11-20
+758,759,Not Survived,Lower,"Theobald, Mr. Thomas Leonard",male,34.0,0,0,363294,8.05,,southampton,31-40
+759,760,Survived,Upper,"Rothes, the Countess. of (Lucy Noel Martha Dyer-Edwards)",female,33.0,0,0,110152,86.5,B77,southampton,31-40
+760,761,Not Survived,Lower,"Garfirth, Mr. John",male,,0,0,358585,14.5,,southampton,None
+761,762,Not Survived,Lower,"Nirva, Mr. Iisakki Antino Aijo",male,41.0,0,0,SOTON/O2 3101272,7.125,,southampton,41-50
+762,763,Survived,Lower,"Barah, Mr. Hanna Assi",male,20.0,0,0,2663,7.2292,,Cherbourg,11-20
+763,764,Survived,Upper,"Carter, Mrs. William Ernest (Lucile Polk)",female,36.0,1,2,113760,120.0,B96 B98,southampton,31-40
+764,765,Not Survived,Lower,"Eklund, Mr. Hans Linus",male,16.0,0,0,347074,7.775,,southampton,11-20
+765,766,Survived,Upper,"Hogeboom, Mrs. John C (Anna Andrews)",female,51.0,1,0,13502,77.9583,D11,southampton,51-60
+766,767,Not Survived,Upper,"Brewe, Dr. Arthur Jackson",male,,0,0,112379,39.6,,Cherbourg,None
+767,768,Not Survived,Lower,"Mangan, Miss. Mary",female,30.5,0,0,364850,7.75,,Queenstown,31-40
+768,769,Not Survived,Lower,"Moran, Mr. Daniel J",male,,1,0,371110,24.15,,Queenstown,None
+769,770,Not Survived,Lower,"Gronnestad, Mr. Daniel Danielsen",male,32.0,0,0,8471,8.3625,,southampton,31-40
+770,771,Not Survived,Lower,"Lievens, Mr. Rene Aime",male,24.0,0,0,345781,9.5,,southampton,21-30
+771,772,Not Survived,Lower,"Jensen, Mr. Niels Peder",male,48.0,0,0,350047,7.8542,,southampton,41-50
+772,773,Not Survived,Middle,"Mack, Mrs. (Mary)",female,57.0,0,0,S.O./P.P. 3,10.5,E77,southampton,51-60
+773,774,Not Survived,Lower,"Elias, Mr. Dibo",male,,0,0,2674,7.225,,Cherbourg,None
+774,775,Survived,Middle,"Hocking, Mrs. Elizabeth (Eliza Needs)",female,54.0,1,3,29105,23.0,,southampton,51-60
+775,776,Not Survived,Lower,"Myhrman, Mr. Pehr Fabian Oliver Malkolm",male,18.0,0,0,347078,7.75,,southampton,11-20
+776,777,Not Survived,Lower,"Tobin, Mr. Roger",male,,0,0,383121,7.75,F38,Queenstown,None
+777,778,Survived,Lower,"Emanuel, Miss. Virginia Ethel",female,5.0,0,0,364516,12.475,,southampton,0-10
+778,779,Not Survived,Lower,"Kilgannon, Mr. Thomas J",male,,0,0,36865,7.7375,,Queenstown,None
+779,780,Survived,Upper,"Robert, Mrs. Edward Scott (Elisabeth Walton McMillan)",female,43.0,0,1,24160,211.3375,B3,southampton,41-50
+780,781,Survived,Lower,"Ayoub, Miss. Banoura",female,13.0,0,0,2687,7.2292,,Cherbourg,11-20
+781,782,Survived,Upper,"Dick, Mrs. Albert Adrian (Vera Gillespie)",female,17.0,1,0,17474,57.0,B20,southampton,11-20
+782,783,Not Survived,Upper,"Long, Mr. Milton Clyde",male,29.0,0,0,113501,30.0,D6,southampton,21-30
+783,784,Not Survived,Lower,"Johnston, Mr. Andrew G",male,,1,2,W./C. 6607,23.45,,southampton,None
+784,785,Not Survived,Lower,"Ali, Mr. William",male,25.0,0,0,SOTON/O.Q. 3101312,7.05,,southampton,21-30
+785,786,Not Survived,Lower,"Harmer, Mr. Abraham (David Lishin)",male,25.0,0,0,374887,7.25,,southampton,21-30
+786,787,Survived,Lower,"Sjoblom, Miss. Anna Sofia",female,18.0,0,0,3101265,7.4958,,southampton,11-20
+787,788,Not Survived,Lower,"Rice, Master. George Hugh",male,8.0,4,1,382652,29.125,,Queenstown,0-10
+788,789,Survived,Lower,"Dean, Master. Bertram Vere",male,1.0,1,2,C.A. 2315,20.575,,southampton,0-10
+789,790,Not Survived,Upper,"Guggenheim, Mr. Benjamin",male,46.0,0,0,PC 17593,79.2,B82 B84,Cherbourg,41-50
+790,791,Not Survived,Lower,"Keane, Mr. Andrew ""Andy""",male,,0,0,12460,7.75,,Queenstown,None
+791,792,Not Survived,Middle,"Gaskell, Mr. Alfred",male,16.0,0,0,239865,26.0,,southampton,11-20
+792,793,Not Survived,Lower,"Sage, Miss. Stella Anna",female,,8,2,CA. 2343,69.55,,southampton,None
+793,794,Not Survived,Upper,"Hoyt, Mr. William Fisher",male,,0,0,PC 17600,30.6958,,Cherbourg,None
+794,795,Not Survived,Lower,"Dantcheff, Mr. Ristiu",male,25.0,0,0,349203,7.8958,,southampton,21-30
+795,796,Not Survived,Middle,"Otter, Mr. Richard",male,39.0,0,0,28213,13.0,,southampton,31-40
+796,797,Survived,Upper,"Leader, Dr. Alice (Farnham)",female,49.0,0,0,17465,25.9292,D17,southampton,41-50
+797,798,Survived,Lower,"Osman, Mrs. Mara",female,31.0,0,0,349244,8.6833,,southampton,31-40
+798,799,Not Survived,Lower,"Ibrahim Shawah, Mr. Yousseff",male,30.0,0,0,2685,7.2292,,Cherbourg,21-30
+799,800,Not Survived,Lower,"Van Impe, Mrs. Jean Baptiste (Rosalie Paula Govaert)",female,30.0,1,1,345773,24.15,,southampton,21-30
+800,801,Not Survived,Middle,"Ponesell, Mr. Martin",male,34.0,0,0,250647,13.0,,southampton,31-40
+801,802,Survived,Middle,"Collyer, Mrs. Harvey (Charlotte Annie Tate)",female,31.0,1,1,C.A. 31921,26.25,,southampton,31-40
+802,803,Survived,Upper,"Carter, Master. William Thornton II",male,11.0,1,2,113760,120.0,B96 B98,southampton,11-20
+803,804,Survived,Lower,"Thomas, Master. Assad Alexander",male,0.42,0,1,2625,8.5167,,Cherbourg,0-10
+804,805,Survived,Lower,"Hedman, Mr. Oskar Arvid",male,27.0,0,0,347089,6.975,,southampton,21-30
+805,806,Not Survived,Lower,"Johansson, Mr. Karl Johan",male,31.0,0,0,347063,7.775,,southampton,31-40
+806,807,Not Survived,Upper,"Andrews, Mr. Thomas Jr",male,39.0,0,0,112050,0.0,A36,southampton,31-40
+807,808,Not Survived,Lower,"Pettersson, Miss. Ellen Natalia",female,18.0,0,0,347087,7.775,,southampton,11-20
+808,809,Not Survived,Middle,"Meyer, Mr. August",male,39.0,0,0,248723,13.0,,southampton,31-40
+809,810,Survived,Upper,"Chambers, Mrs. Norman Campbell (Bertha Griggs)",female,33.0,1,0,113806,53.1,E8,southampton,31-40
+810,811,Not Survived,Lower,"Alexander, Mr. William",male,26.0,0,0,3474,7.8875,,southampton,21-30
+811,812,Not Survived,Lower,"Lester, Mr. James",male,39.0,0,0,A/4 48871,24.15,,southampton,31-40
+812,813,Not Survived,Middle,"Slemen, Mr. Richard James",male,35.0,0,0,28206,10.5,,southampton,31-40
+813,814,Not Survived,Lower,"Andersson, Miss. Ebba Iris Alfrida",female,6.0,4,2,347082,31.275,,southampton,0-10
+814,815,Not Survived,Lower,"Tomlin, Mr. Ernest Portage",male,30.5,0,0,364499,8.05,,southampton,31-40
+815,816,Not Survived,Upper,"Fry, Mr. Richard",male,,0,0,112058,0.0,B102,southampton,None
+816,817,Not Survived,Lower,"Heininen, Miss. Wendla Maria",female,23.0,0,0,STON/O2. 3101290,7.925,,southampton,21-30
+817,818,Not Survived,Middle,"Mallet, Mr. Albert",male,31.0,1,1,S.C./PARIS 2079,37.0042,,Cherbourg,31-40
+818,819,Not Survived,Lower,"Holm, Mr. John Fredrik Alexander",male,43.0,0,0,C 7075,6.45,,southampton,41-50
+819,820,Not Survived,Lower,"Skoog, Master. Karl Thorsten",male,10.0,3,2,347088,27.9,,southampton,0-10
+820,821,Survived,Upper,"Hays, Mrs. Charles Melville (Clara Jennings Gregg)",female,52.0,1,1,12749,93.5,B69,southampton,51-60
+821,822,Survived,Lower,"Lulic, Mr. Nikola",male,27.0,0,0,315098,8.6625,,southampton,21-30
+822,823,Not Survived,Upper,"Reuchlin, Jonkheer. John George",male,38.0,0,0,19972,0.0,,southampton,31-40
+823,824,Survived,Lower,"Moor, Mrs. (Beila)",female,27.0,0,1,392096,12.475,E121,southampton,21-30
+824,825,Not Survived,Lower,"Panula, Master. Urho Abraham",male,2.0,4,1,3101295,39.6875,,southampton,0-10
+825,826,Not Survived,Lower,"Flynn, Mr. John",male,,0,0,368323,6.95,,Queenstown,None
+826,827,Not Survived,Lower,"Lam, Mr. Len",male,,0,0,1601,56.4958,,southampton,None
+827,828,Survived,Middle,"Mallet, Master. Andre",male,1.0,0,2,S.C./PARIS 2079,37.0042,,Cherbourg,0-10
+828,829,Survived,Lower,"McCormack, Mr. Thomas Joseph",male,,0,0,367228,7.75,,Queenstown,None
+830,831,Survived,Lower,"Yasbeck, Mrs. Antoni (Selini Alexander)",female,15.0,1,0,2659,14.4542,,Cherbourg,11-20
+831,832,Survived,Middle,"Richards, Master. George Sibley",male,0.83,1,1,29106,18.75,,southampton,0-10
+832,833,Not Survived,Lower,"Saad, Mr. Amin",male,,0,0,2671,7.2292,,Cherbourg,None
+833,834,Not Survived,Lower,"Augustsson, Mr. Albert",male,23.0,0,0,347468,7.8542,,southampton,21-30
+834,835,Not Survived,Lower,"Allum, Mr. Owen George",male,18.0,0,0,2223,8.3,,southampton,11-20
+835,836,Survived,Upper,"Compton, Miss. Sara Rebecca",female,39.0,1,1,PC 17756,83.1583,E49,Cherbourg,31-40
+836,837,Not Survived,Lower,"Pasic, Mr. Jakob",male,21.0,0,0,315097,8.6625,,southampton,21-30
+837,838,Not Survived,Lower,"Sirota, Mr. Maurice",male,,0,0,392092,8.05,,southampton,None
+838,839,Survived,Lower,"Chip, Mr. Chang",male,32.0,0,0,1601,56.4958,,southampton,31-40
+839,840,Survived,Upper,"Marechal, Mr. Pierre",male,,0,0,11774,29.7,C47,Cherbourg,None
+840,841,Not Survived,Lower,"Alhomaki, Mr. Ilmari Rudolf",male,20.0,0,0,SOTON/O2 3101287,7.925,,southampton,11-20
+841,842,Not Survived,Middle,"Mudd, Mr. Thomas Charles",male,16.0,0,0,S.O./P.P. 3,10.5,,southampton,11-20
+842,843,Survived,Upper,"Serepeca, Miss. Augusta",female,30.0,0,0,113798,31.0,,Cherbourg,21-30
+843,844,Not Survived,Lower,"Lemberopolous, Mr. Peter L",male,34.5,0,0,2683,6.4375,,Cherbourg,31-40
+844,845,Not Survived,Lower,"Culumovic, Mr. Jeso",male,17.0,0,0,315090,8.6625,,southampton,11-20
+845,846,Not Survived,Lower,"Abbing, Mr. Anthony",male,42.0,0,0,C.A. 5547,7.55,,southampton,41-50
+846,847,Not Survived,Lower,"Sage, Mr. Douglas Bullen",male,,8,2,CA. 2343,69.55,,southampton,None
+847,848,Not Survived,Lower,"Markoff, Mr. Marin",male,35.0,0,0,349213,7.8958,,Cherbourg,31-40
+848,849,Not Survived,Middle,"Harper, Rev. John",male,28.0,0,1,248727,33.0,,southampton,21-30
+849,850,Survived,Upper,"Goldenberg, Mrs. Samuel L (Edwiga Grabowska)",female,,1,0,17453,89.1042,C92,Cherbourg,None
+850,851,Not Survived,Lower,"Andersson, Master. Sigvard Harald Elias",male,4.0,4,2,347082,31.275,,southampton,0-10
+851,852,Not Survived,Lower,"Svensson, Mr. Johan",male,74.0,0,0,347060,7.775,,southampton,71-80
+852,853,Not Survived,Lower,"Boulos, Miss. Nourelain",female,9.0,1,1,2678,15.2458,,Cherbourg,0-10
+853,854,Survived,Upper,"Lines, Miss. Mary Conover",female,16.0,0,1,PC 17592,39.4,D28,southampton,11-20
+854,855,Not Survived,Middle,"Carter, Mrs. Ernest Courtenay (Lilian Hughes)",female,44.0,1,0,244252,26.0,,southampton,41-50
+855,856,Survived,Lower,"Aks, Mrs. Sam (Leah Rosen)",female,18.0,0,1,392091,9.35,,southampton,11-20
+856,857,Survived,Upper,"Wick, Mrs. George Dennick (Mary Hitchcock)",female,45.0,1,1,36928,164.8667,,southampton,41-50
+857,858,Survived,Upper,"Daly, Mr. Peter Denis ",male,51.0,0,0,113055,26.55,E17,southampton,51-60
+858,859,Survived,Lower,"Baclini, Mrs. Solomon (Latifa Qurban)",female,24.0,0,3,2666,19.2583,,Cherbourg,21-30
+859,860,Not Survived,Lower,"Razi, Mr. Raihed",male,,0,0,2629,7.2292,,Cherbourg,None
+860,861,Not Survived,Lower,"Hansen, Mr. Claus Peter",male,41.0,2,0,350026,14.1083,,southampton,41-50
+861,862,Not Survived,Middle,"Giles, Mr. Frederick Edward",male,21.0,1,0,28134,11.5,,southampton,21-30
+862,863,Survived,Upper,"Swift, Mrs. Frederick Joel (Margaret Welles Barron)",female,48.0,0,0,17466,25.9292,D17,southampton,41-50
+863,864,Not Survived,Lower,"Sage, Miss. Dorothy Edith ""Dolly""",female,,8,2,CA. 2343,69.55,,southampton,None
+864,865,Not Survived,Middle,"Gill, Mr. John William",male,24.0,0,0,233866,13.0,,southampton,21-30
+865,866,Survived,Middle,"Bystrom, Mrs. (Karolina)",female,42.0,0,0,236852,13.0,,southampton,41-50
+866,867,Survived,Middle,"Duran y More, Miss. Asuncion",female,27.0,1,0,SC/PARIS 2149,13.8583,,Cherbourg,21-30
+867,868,Not Survived,Upper,"Roebling, Mr. Washington Augustus II",male,31.0,0,0,PC 17590,50.4958,A24,southampton,31-40
+868,869,Not Survived,Lower,"van Melkebeke, Mr. Philemon",male,,0,0,345777,9.5,,southampton,None
+869,870,Survived,Lower,"Johnson, Master. Harold Theodor",male,4.0,1,1,347742,11.1333,,southampton,0-10
+870,871,Not Survived,Lower,"Balkic, Mr. Cerin",male,26.0,0,0,349248,7.8958,,southampton,21-30
+871,872,Survived,Upper,"Beckwith, Mrs. Richard Leonard (Sallie Monypeny)",female,47.0,1,1,11751,52.5542,D35,southampton,41-50
+872,873,Not Survived,Upper,"Carlsson, Mr. Frans Olof",male,33.0,0,0,695,5.0,B51 B53 B55,southampton,31-40
+873,874,Not Survived,Lower,"Vander Cruyssen, Mr. Victor",male,47.0,0,0,345765,9.0,,southampton,41-50
+874,875,Survived,Middle,"Abelson, Mrs. Samuel (Hannah Wizosky)",female,28.0,1,0,P/PP 3381,24.0,,Cherbourg,21-30
+875,876,Survived,Lower,"Najib, Miss. Adele Kiamie ""Jane""",female,15.0,0,0,2667,7.225,,Cherbourg,11-20
+876,877,Not Survived,Lower,"Gustafsson, Mr. Alfred Ossian",male,20.0,0,0,7534,9.8458,,southampton,11-20
+877,878,Not Survived,Lower,"Petroff, Mr. Nedelio",male,19.0,0,0,349212,7.8958,,southampton,11-20
+878,879,Not Survived,Lower,"Laleff, Mr. Kristo",male,,0,0,349217,7.8958,,southampton,None
+879,880,Survived,Upper,"Potter, Mrs. Thomas Jr (Lily Alexenia Wilson)",female,56.0,0,1,11767,83.1583,C50,Cherbourg,51-60
+880,881,Survived,Middle,"Shelley, Mrs. William (Imanita Parrish Hall)",female,25.0,0,1,230433,26.0,,southampton,21-30
+881,882,Not Survived,Lower,"Markun, Mr. Johann",male,33.0,0,0,349257,7.8958,,southampton,31-40
+882,883,Not Survived,Lower,"Dahlberg, Miss. Gerda Ulrika",female,22.0,0,0,7552,10.5167,,southampton,21-30
+883,884,Not Survived,Middle,"Banfield, Mr. Frederick James",male,28.0,0,0,C.A./SOTON 34068,10.5,,southampton,21-30
+884,885,Not Survived,Lower,"Sutehall, Mr. Henry Jr",male,25.0,0,0,SOTON/OQ 392076,7.05,,southampton,21-30
+885,886,Not Survived,Lower,"Rice, Mrs. William (Margaret Norton)",female,39.0,0,5,382652,29.125,,Queenstown,31-40
+886,887,Not Survived,Middle,"Montvila, Rev. Juozas",male,27.0,0,0,211536,13.0,,southampton,21-30
+887,888,Survived,Upper,"Graham, Miss. Margaret Edith",female,19.0,0,0,112053,30.0,B42,southampton,11-20
+888,889,Not Survived,Lower,"Johnston, Miss. Catherine Helen ""Carrie""",female,,1,2,W./C. 6607,23.45,,southampton,None
+889,890,Survived,Upper,"Behr, Mr. Karl Howell",male,26.0,0,0,111369,30.0,C148,Cherbourg,21-30
+890,891,Not Survived,Lower,"Dooley, Mr. Patrick",male,32.0,0,0,370376,7.75,,Queenstown,31-40
