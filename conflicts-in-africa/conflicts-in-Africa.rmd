@@ -1,0 +1,388 @@
+---
+title: "Explore Conflict Events in Africa from 1997 to 2018 "
+author: "CHEN Qingqing"
+date: "March 01, 2018"
+output: 
+  html_document:
+    toc: true # table of content true
+    toc_depth: 3  # upto three depths of headings (specified by #, ## and ###)
+    number_sections: true  # if you want number sections at each table header
+    theme: united  # many options for theme, this one is my favorite.
+    highlight: tango  # specifies the syntax highlighting style
+    toc_float: true   # you can add your custom css, should be in same folder
+    keep_md: true
+    
+---
+
+# Project Overview
+In this project, I will use R and apply exploratory data analysis techniques to explore dataset of conflicts in Africa from 1997 to 2018, and the data is collected by the researchers at [ACLED](https://www.acleddata.com/).
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, packages}
+# Load all of the packages that I end up using in my analysis in this code
+# chunk.
+
+# Notice that the parameter "echo" was set to FALSE for this code chunk. This
+# prevents the code from displaying in the knitted HTML output. 
+
+library(ggplot2) #The ggplot2 packages is a plotting system for R, and it draws pretty pictures.
+library(dplyr) #a grammar of data manipulation
+library(gridExtra) #Provides a number of user-level functions to work with "grid" graphics, notably to arrange multiple grid-based plots on a page, and draw tables.
+library(GGally) # Extends 'ggplot2' by adding several functions to reduce the complexity of combining geometric objects with transformed data.
+library(scales) #Graphical scales map data to aesthetics, and provide methods for automatically determining breaks and labels for axes and legends.
+library(memisc) # summarize the regression 
+library(MASS) # for various variables
+library(lattice) # A powerful and elegant high-level data visualization system inspired by Trellis graphics, with an emphasis on multivariate data.
+library(purrr)
+library(ggpubr)
+library(pander)
+
+```
+
+```{r message=FALSE, warning=FALSE,echo=FALSE, load_dataset}
+df <- read.csv("/Users/qingqing/Desktop/ACLED-Africa_new.csv")
+
+```
+
+# Dataset Overview 
+
+```{r message=FALSE, warning=FALSE,echo=FALSE, dimention}
+dim(df)
+```
+
+```{r message=FALSE, warning=FALSE,echo=FALSE, variables}
+names(df)
+```
+
+
+```{r message=FALSE, warning=FALSE,echo=FALSE, datatype}
+str(df)
+```
+
+## Overview
+
+There are 159515 data with 28 variables in the dataset.
+
+## Variables Description:
+
+  - **EVENT_ID_CNTY**: An individual identifier by number and country acronym
+  - **EVENT_ID_NO_CNTY**: An individual numeric identifier
+  - **EVENT_DATE**: The day, month and year on which an event took place
+  - **YEAR**: The year in which an event took place
+  - **TIME_PRECISION**: A numeric code indicating the level of certainty of the date coded for the event
+  - **EVENT_TYPE**: The type of conflict event
+  - **ACTOR1**: The named actor involved in the event
+  - **ASSOC_ACTOR_1**:The named actor associated with or identifying ACTOR1
+  - **INTER1**: A numeric code indicating the type of ACTOR1
+  - **ACTOR2**: The named actor involved in the event
+  - **ASSOC_ACTOR_2**: The named actor allied with or identifying ACTOR2
+  - **INTER2**: A numeric code indicating the type of ACTOR2
+  - **INTERACTION**: A numeric code indicating the interaction between types of ACTOR1 and ACTOR2
+  - **REGION**: The region in which the event took place
+  - **COUNTRY**: The country in which the event took place
+  - **ADMIN1**: The largest sub-national administrative region in which the event took place
+  - **ADMIN2**: The second largest sub-national administrative region in which the event took place
+  - **ADMIN3**: The third largest sub-national administrative region in which the event took place
+  - **LOCATION**: The location in which the event took place
+  - **LATITUDE**: The latitude of the location
+  - **LONGITUDE**: The longitude of the location
+  - **GEO_PRECISION**: A numeric code indicating the level of certainty of the location coded for the event
+  - **SOURCE**: The source of the event report
+  - **NOTES**: A short description of the event
+  - **FATALITIES**: The number of reported fatalities which occurred during the event
+  
+
+```{r message=FALSE, warning=FALSE,echo=FALSE, delete_missing_value}
+# delete data where "EVENT_ID_NO_CNTY" is na
+df_new <- df[!(is.na(df$EVENT_ID_NO_CNTY)),]
+```
+
+```{r message=FALSE, warning=FALSE, echo=FALSE, split}
+# split "EVENT_DATE" to "year, month, day" separately
+datetxt <- as.Date(df_new$EVENT_DATE)
+date <- data.frame(
+                 year = as.numeric(format(datetxt, format = "%Y")),
+                 month = as.numeric(format(datetxt, format = "%m")),
+                 day = as.numeric(format(datetxt, format = "%d")))
+df_new$year <- date$year
+df_new$month <- date$month
+df_new$day <- date$day
+```
+
+## Calculating Summary
+
+### Summary Fatalities by Region
+
+```{r message=FALSE, warning=FALSE,echo=FALSE, summary_fatalities_by_region}
+# groupby region
+summary(df_new$FATALITIES)
+by(df_new$FATALITIES,df_new$REGION,summary)
+
+```
+
+  - The lowest fatalities in a conflict event is 0, the highest is 25000 and the mean value is around 4;
+  - For diffierent Region:
+    - _Eastern Africa_: The lowest fatalities in a conflict event is 0, the highest is 1369 and the mean value is around 4;
+    - _Middle Africa_: The lowest fatalities in a conflict event is 0, the highest is 25000 and the mean value is around 11;
+    - _Northern Africa_: The lowest fatalities in a conflict event is 0, the highest is 1300 and the mean value is around 3;
+    - _Southern Africa_: The lowest fatalities in a conflict event is 0, the highest is 34 and the mean value is around 1;
+    - _Western Africa_: The lowest fatalities in a conflict event is 0, the highest is 1000 and the mean value is around 3;
+  - The highest fatalities number apppeared in Middle Africa, which we can furthuer look into it.
+    
+### Summary Fatalities by Country
+
+The details of fatalities in different can be found below: 
+
+```{r message=FALSE, warning=FALSE,echo=FALSE, summary_fatalities_by_country}
+summary(df_new$FATALITIES)
+by(df_new$FATALITIES,df_new$COUNTRY,summary)
+```
+
+### Summary Conflict Event Type by Region
+- There are totally 9 types of conflict event which are "Battle-Government regains territory,Battle-Non-state actor overtakes territory, Non-violent transfer of territory, Riots/Protests,  Violence against civilians, Battle-No change of territory, Headquarters or base established,   Remote violence, Strategic development". 
+- The mostly happened conflict event is 'Violence against civilians' and the seldom happened conflict is 'Headquarters or base established'.
+- The frequency of different conflict event happeded in different regions is shown below: 
+
+```{r message=FALSE, warning=FALSE,echo=FALSE, summary_event_type_by_Region}
+summary(df_new$EVENT_TYPE)
+by(df_new$EVENT_TYPE,df_new$REGION,summary)
+```
+
+### Summary Conflict Event Type by Country
+The details of conflict event type happeded in different can be found below: 
+```{r echo=FALSE, summary_event_type_by_country}
+by(df_new$EVENT_TYPE,df_new$COUNTRY,summary)
+```
+
+### Other variables summary
+```{r message=FALSE, warning=FALSE,echo=FALSE, summary}
+df_subset <- subset(df_new, select = c("TIME_PRECISION","INTER1","INTER2","INTERACTION","LATITUDE","LONGITUDE","GEO_PRECISION","year","month","day"))
+
+df_subset %>% 
+  #split(df_new$EVENT_TYPE) %>% 
+  map(summary)
+
+```
+
+
+
+
+```{r message=FALSE, warning=FALSE,echo=FALSE, events_type_dataframe}
+events_type <- data.frame(event_type=c("Battle-Government regains territory", "Battle-Non-state actor overtakes territory", "Non-violent transfer of territory","Riots/Protests","Violence against civilians","Battle-No change of territory","Headquarters or base established","Remote violence","Strategic development"),
+                counts=c(2439, 2128, 2496,42070,44593,43425,760,10111,11488))
+events_type$percent<- prop.table(events_type$counts)
+```
+
+# Univariate Plots Section
+## Conflict Event Type Bar Plot
+
+```{r message=FALSE, warning=FALSE,echo=FALSE, barplot_event_type}
+p1 <-ggplot(data=events_type, aes(x=reorder(event_type,counts), y=counts)) +
+  geom_bar(stat="identity",fill="steelblue")+
+  geom_text(aes(label=counts), vjust=0.5,hjust=0.4, size=3.5) +
+  ggtitle('Different Conflict Event Type Information')+
+  labs(y='Number of Conflict Events', x="Conflict Event Type") 
+p1 + coord_flip()
+```
+
+- The top three common type of conflict event are **"Violence against civilians (44593), Battle-No change of territory (43425), Riots/Protests (42070)"**, separately.
+- The most unusual type of conflict event is 'Headquarters or base established'.
+- Both common type and most unusual type of conflict event all can make further discussion. 
+
+## Conflict Event Type Pie Chart
+
+```{r message=FALSE, warning=FALSE,echo=FALSE, pie_chart_event_type}
+# Create data for the graph.
+x <-  events_type$counts
+piepercent<- round(100*x/sum(x), 2)
+labels <-  piepercent
+labels <- paste(labels,"%",sep="") # ad % to labels 
+
+# Plot the chart.
+pie(x, labels = labels, main = "Event Type Pie Chart",col = rainbow(length(x)))
+legend("bottomright", c("Battle-Government regains territory", "Battle-Non-state actor overtakes territory", "Non-violent transfer of territory","Riots/Protests","Violence against civilians","Battle-No change of territory","Headquarters or base established","Remote violence","Strategic development"), cex=0.4, fill=rainbow(length(x)))
+```
+
+- The percentage of top three common conflict event type ("Violence against civilians, Battle-No change of territory, Riots/Protests") are 27.96%, 27.22% and 26.37%
+
+# Bivariate Plots Section
+## Conflict Event Type by Region 
+
+```{r message=FALSE, warning=FALSE,echo=FALSE, conflicts_by_Region}
+p2 <- ggplot(df_new, aes(REGION, fill=EVENT_TYPE)) + 
+  geom_bar() + 
+  theme(legend.position="bottom", legend.text=element_text(size=rel(0.4)))+
+  labs(title = "Number of Conflict Events in Different Region",
+           y = "Number of Conflict Events",
+           x = "Region") 
+p2
+```
+
+- The highest number of conflict events appeared in **Eastern Africa** and the lowest number of conflict events appeared in **Southern Africa**
+- We can further look into the data in Eastern Afirca uncover more insights 
+
+## Conflict Event Type by Country
+
+```{r message=FALSE, warning=FALSE,echo=FALSE, conflicts_by_country}
+p3 <- ggplot(df_new, aes(COUNTRY, fill=EVENT_TYPE)) + 
+  geom_bar() + 
+  theme(legend.position="bottom", legend.text=element_text(size=rel(0.4)), axis.text.x = element_text(angle = 45, hjust = 1))+
+  labs(title = "Number of Conflict Events in Different Country",
+           y = "Number of Conflict Events",
+           x = "Country") 
+p3
+```
+
+- Somalia has the highest number of conflict events, and followed by Democratic Republic of Congo, Nigeria and Sudan.
+- We can pay a bit more attention to these countries where the conflict appeared quite ofen. 
+
+## Conflict Event Type by Year
+
+```{r message=FALSE, warning=FALSE,echo=FALSE, conflicts_by_years}
+df_new$Year <- as.factor(df_new$year)
+p4 <- ggplot(df_new, aes(Year, fill=EVENT_TYPE)) + 
+  geom_bar() + 
+  geom_hline(yintercept=159510/22, color="black") +
+  theme(legend.position="bottom", legend.text=element_text(size=rel(0.4)))+
+  labs(title = "Number of Conflict Events in Different Years",
+           y = "Number of Conflict Events",
+           x = "Year") 
+p4
+```
+- We can see clearly from the ploted figure above that:
+  - The number of conflict events happened before 2011 is relatively low (lower than the aveage) and it shows a significant increasement in 2011 (higher than the average).
+  - The number of conflict events happened in 2013, 2014, 2015, 2016 and 2017 is quite high, where 2016 reached the highest point. (2018 data only updated to Feb)
+  - We can focuse more on years 2013, 2014, 2015, 2016 and 2017.
+  
+## Conflict Event Type by Month
+
+```{r message=FALSE, warning=FALSE,echo=FALSE, conflicts_by_month}
+p5 <- df_new$Month <- as.factor(df_new$month)
+ggplot(df_new, aes(Month, fill=EVENT_TYPE)) + 
+  geom_bar() + 
+  geom_hline(yintercept=159510/12, color="black") +
+  theme(legend.position="bottom", legend.text=element_text(size=rel(0.4)))+
+  labs(title = "Number of Conflict Events in Different Months",
+           y = "Number of Conflict Events",
+           x = "Month") 
+```
+
+- Conflict events a bit more likely happened in January compared to the rest months of the year.
+
+```{r message=FALSE, warning=FALSE, summary_fatalities}
+summary(df_new$FATALITIES)
+```
+
+## Fatalities Barplot 
+
+```{r message=FALSE, warning=FALSE,echo=FALSE, Fatalities_plot}
+# limit the fatalities less than 10 
+p6 <- ggplot(aes(FATALITIES, fill=EVENT_TYPE), data=subset(df_new, df_new$FATALITIES <= 10)) +
+  geom_histogram(color='black', binwidth = 0.8) +
+  scale_x_continuous(breaks = seq(0,10,1))  +
+  theme(legend.position="bottom", legend.text=element_text(size=rel(0.4))) +
+  labs( y = "Number of Fatalities",
+           x = "Fatalities") 
+p6
+```
+
+- Mostly there is small number of fatalited in events, so in order to have a clearer plot, I limited the fatalities number within 10 people.
+
+## Interaction Barplot  
+```{r message=FALSE, warning=FALSE,echo=FALSE, conflicts_by_year}
+df_new$Interaction <- as.factor(df_new$INTERACTION)
+p7 <- ggplot(df_new, aes(Interaction, fill=EVENT_TYPE)) + 
+  geom_bar() + 
+  theme(legend.position="bottom", legend.text=element_text(size=rel(0.4)))+
+  labs(title = "Number of Conflict Events in Different Interaction",
+           y = "Number of Conflict Events",
+           x = "Kind of Interaction") 
+p7
+```
+
+- The first three interaction is 60, 37 and 12 which corresponded to "Sole Protester Action", "Political Militia Versus Civilians" and "Military Versus Rebels" according to ACLED codebook; 
+- We can link this to the Actor factors for further exploratory.
+
+# Multivariate Plots Section
+## Conflict Event Type in different years groupby Region
+
+```{r message=FALSE, warning=FALSE,echo=FALSE, conflicts_by_year2}
+p8 <- ggplot(df_new, aes(Year, fill=EVENT_TYPE)) + 
+  geom_bar() + 
+  facet_wrap(~REGION, ncol=2) +
+  theme(legend.position="bottom", legend.text=element_text(size=rel(0.4)), axis.text.x = element_text(angle = 90, hjust = 1))+
+  labs(title = "Number of Conflict Events in Different Years",
+           y = "Number of Conflict Events") 
+p8
+```
+
+- The distribution trend keeps same, years 2013,2014, 2015, 2016 and 2017 have higher number of conflict events in all five regions.
+
+
+## Event Type VS. Fatalities 
+
+```{r message=FALSE, warning=FALSE,echo=FALSE,Fatalities_plot2 }
+p9<- ggplot(aes(factor(FATALITIES), EVENT_TYPE), data = subset(df_new, df_new$FATALITIES <= 20)) + 
+  geom_point(aes(color=factor(FATALITIES)),alpha=1/10, position = 'jitter') 
+p9
+```
+
+## Event Type VS. Fatalities groupby Region
+```{r message=FALSE, warning=FALSE,message=FALSE, warnings=FALSE, Multivariate_Plots1}
+p10 <- ggplot(aes(y=EVENT_TYPE,x=FATALITIES),data = subset(df_new, df_new$FATALITIES <= 300)) + 
+  geom_jitter(aes(color = REGION),alpha=1/3,pch=21,cex=1)+
+  facet_wrap(~REGION)+
+  theme(legend.position="bottom", legend.text=element_text(size=rel(0.4))) +
+  labs(y = "Type of Conflict Event",
+    x = "Number of Fatalities") 
+p10
+```
+
+- "Violence against civilians, Riots/Protests, Remote violence and Battle-No change of territory" type of conflict events caused more fatalites 
+
+## Fatalities counts groupby regions 
+
+```{r message=FALSE, warning=FALSE,echo=FALSE, Fatalities_plot3}
+# limit the fatalities less than 10 
+p11 <- ggplot(aes(FATALITIES, fill=EVENT_TYPE), data=subset(df_new, df_new$FATALITIES <= 20)) +
+  geom_histogram(color='black', binwidth = 0.8) +
+  scale_x_continuous(breaks = seq(0,20,1)) +
+  facet_wrap(~REGION, ncol=2) +
+  theme(legend.position="bottom", legend.text=element_text(size=rel(0.4)))
+p11
+```
+
+- Eastern Africa has more conflict events
+- The number of fatilities of each event is small in all regions, mostly is within 5 people. 
+
+## Fatalities counts groupby years
+
+```{r message=FALSE, warning=FALSE,echo=FALSE, Fatalities_plot4}
+# limit the fatalities less than 10 
+p12 <- ggplot(aes(FATALITIES, fill=EVENT_TYPE), data=subset(df_new, df_new$FATALITIES <= 10)) +
+  geom_histogram(color='black', binwidth = 0.8) +
+  scale_x_continuous(breaks = seq(0,10,1)) +
+  facet_wrap(~Year) +
+  theme(legend.position="bottom", legend.text=element_text(size=rel(0.4)))
+p12
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
